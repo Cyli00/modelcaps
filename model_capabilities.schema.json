@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OtterPad Model Capabilities",
+  "description": "纯 model id → 能力表，由 scripts/build.py 聚合 LiteLLM + OpenRouter + overrides 生成。供 OtterPad 按 geosite 模式订阅更新。",
+  "type": "object",
+  "required": ["version", "models"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": { "type": "string", "description": "YYYY-MM-DD 生成日期" },
+    "generated_at": { "type": "string", "description": "ISO 8601 生成时间" },
+    "sources": { "type": "array", "items": { "type": "string" } },
+    "providers": {
+      "type": "array",
+      "items": { "enum": ["openai", "anthropic", "gemini", "openAICompatible"] }
+    },
+    "models": {
+      "type": "object",
+      "description": "key 为纯 model id（用户在 OtterPad 填写的形态，已剥离上游 provider 前缀）",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["providers"],
+        "properties": {
+          "imageInput": { "type": "boolean", "description": "支持图片输入（vision）" },
+          "imageOutput": { "type": "boolean", "description": "支持图片生成输出" },
+          "tool": { "type": "boolean", "description": "支持函数/工具调用" },
+          "reasoning": { "type": "boolean", "description": "支持推理/思考" },
+          "embedding": { "type": "boolean", "description": "嵌入模型" },
+          "webSearch": { "type": "boolean", "description": "支持联网搜索" },
+          "providers": {
+            "type": "array",
+            "items": { "enum": ["openai", "anthropic", "gemini", "openAICompatible"] },
+            "description": "该 model 适用的 OtterPad provider class（参考用，同 id 跨 provider 取并集）"
+          }
+        }
+      }
+    }
+  }
+}
