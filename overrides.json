@@ -1,17 +1,10 @@
 {
   "mimo-v2.5-pro": {
-    "imageInput": false,
-    "imageOutput": false,
-    "tool": true,
-    "reasoning": true,
-    "embedding": false,
     "webSearch": true,
-    "providers": ["openAICompatible"],
-    "_note": "小米 MiMo 旗舰（纯文本）。OpenRouter/litellm 未标联网(小米 forced_search 私有)；图片输入会触发 HTTP 404(GitHub XiaomiMiMo/MiMo#62)。此处锁死纯文本防上游波动。"
+    "_note": "小米 MiMo 旗舰（纯文本）。联网走 forced_search（OpenRouter/litellm 未标）；imageInput/tool/reasoning 等用上游聚合值，不在此锁定。"
   },
   "mimo-v2.5": {
     "webSearch": true,
-    "providers": ["openAICompatible"],
-    "_note": "小米 MiMo 全模态版，支持联网 forced_search（上游未标）。"
+    "_note": "小米 MiMo 全模态版。联网 forced_search（上游未标）。"
   }
 }
