@@ -1,11 +1,10 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
   "version": "2026-07-25",
-  "generated_at": "2026-07-25T16:59:39+00:00",
+  "generated_at": "2026-07-25T17:46:52+00:00",
   "sources": [
     "litellm",
-    "openrouter",
-    "overrides"
+    "openrouter"
   ],
   "providers": [
     "openai",
@@ -14426,7 +14425,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openAICompatible"
       ]
@@ -14437,7 +14436,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openAICompatible"
       ]

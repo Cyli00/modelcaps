@@ -4,7 +4,6 @@
 
 产出 model_capabilities.json：纯 model id 为 key（用户在 OtterPad 填的形态），
 能力取两源 OR 并集，每个 model 标注适用的 OtterPad provider class。
-overrides.json 优先级最高（强制覆盖聚合结果，补厂商私有项）。
 
 OtterPad AgentApiProvider 仅 4 类：openai / anthropic / gemini / openAICompatible。
 xAI（grok）虽在 OtterPad 内部升格走 OpenAI Responses，但此处仍归 openAICompatible
@@ -15,7 +14,6 @@ xAI（grok）虽在 OtterPad 内部升格走 OpenAI Responses，但此处仍归 
 
 import json
 import sys
-import time
 import urllib.request
 from datetime import datetime, timezone
 
@@ -85,7 +83,7 @@ def _http_get_json(url: str, timeout: int = 60, headers: dict | None = None) -> 
 
 # ── LiteLLM ────────────────────────────────────────────────────────────────
 def _pull_litellm() -> dict:
-    print("[1/4] 拉取 LiteLLM model_prices_and_context_window.json ...", flush=True)
+    print("[1/3] 拉取 LiteLLM model_prices_and_context_window.json ...", flush=True)
     data = _http_get_json(LITELLM_URL, timeout=120)
     if not isinstance(data, dict):
         raise RuntimeError("LiteLLM 返回非 object")
@@ -117,7 +115,7 @@ def _pull_litellm() -> dict:
 
 # ── OpenRouter ─────────────────────────────────────────────────────────────
 def _pull_openrouter() -> dict:
-    print("[2/4] 拉取 OpenRouter /api/v1/models ...", flush=True)
+    print("[2/3] 拉取 OpenRouter /api/v1/models ...", flush=True)
     out: dict[str, dict] = {}
     offset = 0
     total = None
@@ -173,63 +171,28 @@ def _merge(target: dict, pid: str, entry: dict) -> None:
             cur["providers"].append(p)
 
 
-# ── overrides ──────────────────────────────────────────────────────────────
-def _apply_overrides(models: dict, overrides_path: str) -> int:
-    """overrides.json 强制覆盖聚合结果（厂商私有项、纠错）。返回覆盖条数。"""
-    try:
-        with open(overrides_path, encoding="utf-8") as f:
-            ov = json.load(f)
-    except FileNotFoundError:
-        return 0
-    n = 0
-    for pid, patch in ov.items():
-        if not isinstance(patch, dict):
-            continue
-        clean = {k: v for k, v in patch.items() if not k.startswith("_")}
-        if pid not in models:
-            # overrides 可新增整条（上游没有的 model）
-            models[pid] = {
-                "imageInput": False, "imageOutput": False, "tool": False,
-                "reasoning": False, "embedding": False, "webSearch": False,
-                "providers": clean.get("providers", ["openAICompatible"]),
-            }
-        models[pid].update(clean)
-        n += 1
-    return n
-
-
 # ── main ───────────────────────────────────────────────────────────────────
 def main() -> int:
     models = _pull_litellm()
     or_models = _pull_openrouter()
-    # 合并 OpenRouter 到 LiteLLM（OR 并集）
     for pid, entry in or_models.items():
         _merge(models, pid, entry)
-    print(f"[3/4] 合并去重后: {len(models)} 纯 id", flush=True)
+    print(f"[3/3] 合并去重后: {len(models)} 纯 id", flush=True)
 
-    n = _apply_overrides(models, "overrides.json")
-    print(f"      overrides 覆盖/新增: {n} 条", flush=True)
-
-    # 按纯 id 排序，稳定产出
     ordered = {k: models[k] for k in sorted(models)}
     doc = {
         "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/"
                    "model_capabilities.schema.json",
         "version": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "sources": ["litellm", "openrouter", "overrides"],
+        "sources": ["litellm", "openrouter"],
         "providers": list(OTTERPAD_PROVIDERS),
         "models": ordered,
     }
     with open("model_capabilities.json", "w", encoding="utf-8") as f:
         json.dump(doc, f, ensure_ascii=False, indent=2)
         f.write("\n")
-    print(f"[4/4] 写出 model_capabilities.json ({len(ordered)} 模型)", flush=True)
-
-    # 抽样校验：mimo-v2.5-pro 必须纯文本（imageInput=false）
-    sample = ordered.get("mimo-v2.5-pro")
-    print("      抽样 mimo-v2.5-pro:", json.dumps(sample, ensure_ascii=False)
-          if sample else "<缺失，需 overrides 补>")
+    print(f"写出 model_capabilities.json ({len(ordered)} 模型)", flush=True)
     return 0
 
 
