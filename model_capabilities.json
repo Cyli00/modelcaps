@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-07-26",
-  "generated_at": "2026-07-26T02:44:05+00:00",
+  "version": "2026-07-27",
+  "generated_at": "2026-07-27T02:52:19+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -11629,28 +11629,6 @@
       "providers": [
         "openAICompatible",
         "gemini"
-      ]
-    },
-    "inflection-3-pi": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "inflection-3-productivity": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
       ]
     },
     "inkling": {
