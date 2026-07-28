@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-07-27",
-  "generated_at": "2026-07-27T02:52:19+00:00",
+  "version": "2026-07-28",
+  "generated_at": "2026-07-28T02:30:01+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -19325,6 +19325,17 @@
       ]
     },
     "qwen3.6-plus": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "qwen3.7-flash": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
