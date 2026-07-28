@@ -1,15 +1,12 @@
 # modelcaps
 
-OtterPad 的模型能力规则集——按 **geosite 模式**维护：上游聚合一个权威预处理好的
-能力表，App 后台订阅更新，不靠发版。
+OtterPad 的模型能力规则集：上游聚合一个权威预处理好的能力表，App 后台订阅更新，不靠发版。
 
 ## 解决什么
 
-OtterPad 原先用打包进 app 的 `model_capabilities.json`（正则从 model id 推断能力），
-发版才更新，粒度粗（按家族），分不清同家族不同版本的能力差异。
+OtterPad 原先用打包进 app 的 `model_capabilities.json`（正则从 model id 推断能力），发版才更新，粒度粗（按家族），分不清同家族不同版本的能力差异。
 
-本仓库提供一个 **per-model 精确能力表**（纯 model id 为 key），App 订阅它，配合
-正则兜底，无需发版即可跟进新模型。
+本仓库提供一个 **per-model 精确能力表**（纯 model id 为 key），App 订阅它，配合正则兜底，无需发版即可跟进新模型。
 
 ## 订阅 URL（jsdelivr CDN）
 
