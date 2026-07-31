@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-07-30",
-  "generated_at": "2026-07-30T02:22:02+00:00",
+  "version": "2026-07-31",
+  "generated_at": "2026-07-31T02:45:57+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -17095,7 +17095,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": true,
+      "reasoning": false,
       "embedding": false,
       "webSearch": true,
       "providers": [
