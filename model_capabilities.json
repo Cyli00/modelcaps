@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-07-31",
-  "generated_at": "2026-07-31T02:45:57+00:00",
+  "version": "2026-08-01",
+  "generated_at": "2026-08-01T02:44:38+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -3421,17 +3421,6 @@
         "anthropic"
       ]
     },
-    "claude-fable-5:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "anthropic"
-      ]
-    },
     "claude-fable-5@default": {
       "imageInput": true,
       "imageOutput": false,
@@ -3488,17 +3477,6 @@
       ]
     },
     "claude-haiku-4.5": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "anthropic"
-      ]
-    },
-    "claude-haiku-4.5:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -3707,29 +3685,7 @@
         "anthropic"
       ]
     },
-    "claude-opus-4.1:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "anthropic"
-      ]
-    },
     "claude-opus-4.5": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "anthropic"
-      ]
-    },
-    "claude-opus-4.5:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -3762,17 +3718,6 @@
         "anthropic"
       ]
     },
-    "claude-opus-4.6:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "anthropic"
-      ]
-    },
     "claude-opus-4.7": {
       "imageInput": true,
       "imageOutput": false,
@@ -3795,17 +3740,6 @@
         "anthropic"
       ]
     },
-    "claude-opus-4.7:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "anthropic"
-      ]
-    },
     "claude-opus-4.8": {
       "imageInput": true,
       "imageOutput": false,
@@ -3818,17 +3752,6 @@
       ]
     },
     "claude-opus-4.8-fast": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "anthropic"
-      ]
-    },
-    "claude-opus-4.8:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -4004,17 +3927,6 @@
         "anthropic"
       ]
     },
-    "claude-sonnet-4.5:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "anthropic"
-      ]
-    },
     "claude-sonnet-4.6": {
       "imageInput": true,
       "imageOutput": false,
@@ -4038,17 +3950,6 @@
       ]
     },
     "claude-sonnet-5": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "anthropic"
-      ]
-    },
-    "claude-sonnet-5:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -6060,6 +5961,17 @@
         "openAICompatible"
       ]
     },
+    "deepseek-v4-flash-0731": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "deepseek-v4-flash-thinking": {
       "imageInput": false,
       "imageOutput": false,
@@ -7711,17 +7623,6 @@
         "gemini"
       ]
     },
-    "gemini-2.5-flash-lite:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "gemini"
-      ]
-    },
     "gemini-2.5-flash-native-audio-latest": {
       "imageInput": false,
       "imageOutput": false,
@@ -7777,17 +7678,6 @@
         "gemini"
       ]
     },
-    "gemini-2.5-flash:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "gemini"
-      ]
-    },
     "gemini-2.5-pro": {
       "imageInput": true,
       "imageOutput": false,
@@ -7832,17 +7722,6 @@
         "gemini"
       ]
     },
-    "gemini-2.5-pro:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "gemini"
-      ]
-    },
     "gemini-25-flash-image": {
       "imageInput": false,
       "imageOutput": true,
@@ -7861,17 +7740,6 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
-      "providers": [
-        "gemini"
-      ]
-    },
-    "gemini-3-flash-preview:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -7975,17 +7843,6 @@
         "gemini"
       ]
     },
-    "gemini-3.1-flash-lite:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "gemini"
-      ]
-    },
     "gemini-3.1-flash-live-preview": {
       "imageInput": true,
       "imageOutput": false,
@@ -8019,17 +7876,6 @@
         "gemini"
       ]
     },
-    "gemini-3.1-pro-preview:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "gemini"
-      ]
-    },
     "gemini-3.5-flash": {
       "imageInput": true,
       "imageOutput": false,
@@ -8052,28 +7898,6 @@
         "gemini"
       ]
     },
-    "gemini-3.5-flash-lite:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "gemini"
-      ]
-    },
-    "gemini-3.5-flash:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "gemini"
-      ]
-    },
     "gemini-3.6-flash": {
       "imageInput": true,
       "imageOutput": false,
@@ -8081,17 +7905,6 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
-      "providers": [
-        "gemini"
-      ]
-    },
-    "gemini-3.6-flash:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -9901,17 +9714,6 @@
         "openai"
       ]
     },
-    "gpt-5-mini:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-5-nano": {
       "imageInput": true,
       "imageOutput": false,
@@ -9930,17 +9732,6 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-5-nano:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -10099,17 +9890,6 @@
         "openai"
       ]
     },
-    "gpt-5.1:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-5.2": {
       "imageInput": true,
       "imageOutput": false,
@@ -10194,17 +9974,6 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-5.2:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -10319,17 +10088,6 @@
         "openai"
       ]
     },
-    "gpt-5.4-mini:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-5.4-nano": {
       "imageInput": true,
       "imageOutput": false,
@@ -10352,17 +10110,6 @@
         "openai"
       ]
     },
-    "gpt-5.4-nano:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-5.4-pro": {
       "imageInput": true,
       "imageOutput": false,
@@ -10381,17 +10128,6 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-5.4:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -10436,17 +10172,6 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-5.5:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -10518,17 +10243,6 @@
       ]
     },
     "gpt-5.6-terra-pro": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-5:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -11929,6 +11643,17 @@
       ]
     },
     "inkling": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "inkling-small": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -14816,17 +14541,6 @@
       ]
     },
     "minimax-m3": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "minimax-m3:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
