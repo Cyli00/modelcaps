@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-08-04",
-  "generated_at": "2026-08-04T02:27:57+00:00",
+  "version": "2026-08-05",
+  "generated_at": "2026-08-05T02:27:48+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -8064,6 +8064,28 @@
       ]
     },
     "gemini-robotics-er-1.5-preview": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini-robotics-er-1.6-preview": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini-robotics-er-2-preview": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
