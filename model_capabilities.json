@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-08-05",
-  "generated_at": "2026-08-05T02:27:48+00:00",
+  "version": "2026-08-06",
+  "generated_at": "2026-08-06T02:30:21+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -12547,6 +12547,17 @@
         "openAICompatible"
       ]
     },
+    "ling-3.0-flash": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "ling-3.0-flash:free": {
       "imageInput": false,
       "imageOutput": false,
@@ -15954,6 +15965,17 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "muse-spark-1.2": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
       "providers": [
         "openAICompatible"
       ]
