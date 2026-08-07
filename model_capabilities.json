@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-08-06",
-  "generated_at": "2026-08-06T02:30:21+00:00",
+  "version": "2026-08-07",
+  "generated_at": "2026-08-07T02:38:00+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -3421,6 +3421,17 @@
         "anthropic"
       ]
     },
+    "claude-fable-5:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
     "claude-fable-5@default": {
       "imageInput": true,
       "imageOutput": false,
@@ -3477,6 +3488,17 @@
       ]
     },
     "claude-haiku-4.5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-haiku-4.5:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -3685,7 +3707,29 @@
         "anthropic"
       ]
     },
+    "claude-opus-4.1:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
     "claude-opus-4.5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-opus-4.5:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -3718,6 +3762,17 @@
         "anthropic"
       ]
     },
+    "claude-opus-4.6:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
     "claude-opus-4.7": {
       "imageInput": true,
       "imageOutput": false,
@@ -3740,6 +3795,17 @@
         "anthropic"
       ]
     },
+    "claude-opus-4.7:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
     "claude-opus-4.8": {
       "imageInput": true,
       "imageOutput": false,
@@ -3752,6 +3818,17 @@
       ]
     },
     "claude-opus-4.8-fast": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-opus-4.8:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -3796,6 +3873,17 @@
       ]
     },
     "claude-opus-5-fast": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-opus-5:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -3927,7 +4015,29 @@
         "anthropic"
       ]
     },
+    "claude-sonnet-4.5:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
     "claude-sonnet-4.6": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-sonnet-4.6:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -3950,6 +4060,17 @@
       ]
     },
     "claude-sonnet-5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-sonnet-5:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -7634,6 +7755,17 @@
         "gemini"
       ]
     },
+    "gemini-2.5-flash-lite:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
     "gemini-2.5-flash-native-audio-latest": {
       "imageInput": false,
       "imageOutput": false,
@@ -7689,6 +7821,17 @@
         "gemini"
       ]
     },
+    "gemini-2.5-flash:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
     "gemini-2.5-pro": {
       "imageInput": true,
       "imageOutput": false,
@@ -7733,6 +7876,17 @@
         "gemini"
       ]
     },
+    "gemini-2.5-pro:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
     "gemini-25-flash-image": {
       "imageInput": false,
       "imageOutput": true,
@@ -7751,6 +7905,17 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini-3-flash-preview:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -7854,6 +8019,17 @@
         "gemini"
       ]
     },
+    "gemini-3.1-flash-lite:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
     "gemini-3.1-flash-live-preview": {
       "imageInput": true,
       "imageOutput": false,
@@ -7887,6 +8063,17 @@
         "gemini"
       ]
     },
+    "gemini-3.1-pro-preview:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
     "gemini-3.5-flash": {
       "imageInput": true,
       "imageOutput": false,
@@ -7909,6 +8096,28 @@
         "gemini"
       ]
     },
+    "gemini-3.5-flash-lite:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini-3.5-flash:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
     "gemini-3.6-flash": {
       "imageInput": true,
       "imageOutput": false,
@@ -7916,6 +8125,17 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini-3.6-flash:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -8680,6 +8900,17 @@
         "openAICompatible"
       ]
     },
+    "glm-5.2:batch": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "glm-5p1": {
       "imageInput": false,
       "imageOutput": false,
@@ -9032,6 +9263,17 @@
         "openai"
       ]
     },
+    "gpt-3.5-turbo:batch": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-35-turbo": {
       "imageInput": false,
       "imageOutput": false,
@@ -9241,6 +9483,17 @@
         "openai"
       ]
     },
+    "gpt-4-turbo:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-4.1": {
       "imageInput": true,
       "imageOutput": false,
@@ -9285,6 +9538,17 @@
         "openai"
       ]
     },
+    "gpt-4.1-mini:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-4.1-nano": {
       "imageInput": true,
       "imageOutput": false,
@@ -9297,6 +9561,28 @@
       ]
     },
     "gpt-4.1-nano-2025-04-14": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-4.1-nano:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-4.1:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -9560,6 +9846,17 @@
         "openai"
       ]
     },
+    "gpt-4o-mini:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-4o-realtime-preview": {
       "imageInput": false,
       "imageOutput": false,
@@ -9648,6 +9945,17 @@
         "openai"
       ]
     },
+    "gpt-4o:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-5": {
       "imageInput": true,
       "imageOutput": false,
@@ -9703,6 +10011,17 @@
         "openai"
       ]
     },
+    "gpt-5-codex:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-5-image": {
       "imageInput": true,
       "imageOutput": true,
@@ -9747,6 +10066,17 @@
         "openai"
       ]
     },
+    "gpt-5-mini:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-5-nano": {
       "imageInput": true,
       "imageOutput": false,
@@ -9769,6 +10099,17 @@
         "openai"
       ]
     },
+    "gpt-5-nano:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-5-pro": {
       "imageInput": true,
       "imageOutput": false,
@@ -9787,6 +10128,17 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-5-pro:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -9923,6 +10275,17 @@
         "openai"
       ]
     },
+    "gpt-5.1:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-5.2": {
       "imageInput": true,
       "imageOutput": false,
@@ -10007,6 +10370,28 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-5.2-pro:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-5.2:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -10121,6 +10506,17 @@
         "openai"
       ]
     },
+    "gpt-5.4-mini:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-5.4-nano": {
       "imageInput": true,
       "imageOutput": false,
@@ -10143,6 +10539,17 @@
         "openai"
       ]
     },
+    "gpt-5.4-nano:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-5.4-pro": {
       "imageInput": true,
       "imageOutput": false,
@@ -10161,6 +10568,28 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-5.4-pro:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-5.4:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -10209,6 +10638,28 @@
         "openai"
       ]
     },
+    "gpt-5.5-pro:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-5.5:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-5.6": {
       "imageInput": true,
       "imageOutput": false,
@@ -10242,6 +10693,28 @@
         "openai"
       ]
     },
+    "gpt-5.6-luna-pro:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-5.6-luna:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-5.6-sol": {
       "imageInput": true,
       "imageOutput": false,
@@ -10264,6 +10737,28 @@
         "openai"
       ]
     },
+    "gpt-5.6-sol-pro:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-5.6-sol:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-5.6-terra": {
       "imageInput": true,
       "imageOutput": false,
@@ -10276,6 +10771,39 @@
       ]
     },
     "gpt-5.6-terra-pro": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-5.6-terra-pro:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-5.6-terra:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-5:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -11697,6 +12225,17 @@
         "openAICompatible"
       ]
     },
+    "inkling:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "inpaint": {
       "imageInput": false,
       "imageOutput": false,
@@ -12250,6 +12789,17 @@
         "openAICompatible"
       ]
     },
+    "kimi-k2.7-code:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "kimi-k2p5": {
       "imageInput": false,
       "imageOutput": false,
@@ -12558,7 +13108,7 @@
         "openAICompatible"
       ]
     },
-    "ling-3.0-flash:free": {
+    "ling-3.0-tiny:free": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -14595,6 +15145,17 @@
         "openAICompatible"
       ]
     },
+    "minimax-m3:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "minimax.minimax-m2": {
       "imageInput": false,
       "imageOutput": false,
@@ -16101,6 +16662,17 @@
         "openAICompatible"
       ]
     },
+    "nemotron-3-ultra-550b-a55b:batch": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "nemotron-3-ultra-550b-a55b:free": {
       "imageInput": false,
       "imageOutput": false,
@@ -16739,6 +17311,28 @@
         "openai"
       ]
     },
+    "o1-pro:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "o1:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "o3": {
       "imageInput": true,
       "imageOutput": false,
@@ -16816,6 +17410,28 @@
         "openai"
       ]
     },
+    "o3-mini-high:batch": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "o3-mini:batch": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "o3-pro": {
       "imageInput": true,
       "imageOutput": false,
@@ -16834,6 +17450,28 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "o3-pro:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "o3:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -16883,6 +17521,28 @@
       ]
     },
     "o4-mini-high": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "o4-mini-high:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "o4-mini:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
