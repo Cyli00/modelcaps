@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-08-14",
-  "generated_at": "2026-08-14T01:52:58+00:00",
+  "version": "2026-08-15",
+  "generated_at": "2026-08-15T01:10:43+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -11138,17 +11138,6 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-oss-20b:free": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
