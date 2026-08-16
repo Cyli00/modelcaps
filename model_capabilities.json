@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-08-15",
-  "generated_at": "2026-08-15T01:10:43+00:00",
+  "version": "2026-08-16",
+  "generated_at": "2026-08-16T01:15:14+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -341,6 +341,160 @@
       "webSearch": false,
       "providers": [
         "openAICompatible"
+      ]
+    },
+    "FW-DeepSeek-V3.2": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-DeepSeek-V4-Pro": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-GLM-5": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-GLM-5.1": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-GLM-5.2": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-GLM-5.2-Fast": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-Inkling": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-Kimi-K2.5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-Kimi-K2.6": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-Kimi-K2.7-Code": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-Kimi-K3": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-MiniMax-M2.5": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-MiniMax-M3": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-Nemotron-3-Ultra-NVFP4": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
       ]
     },
     "GLM-4.5": {
@@ -6380,6 +6534,17 @@
         "openAICompatible"
       ]
     },
+    "dots-3-note-preview:free": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "doubao-embedding": {
       "imageInput": false,
       "imageOutput": false,
@@ -8081,6 +8246,17 @@
       "reasoning": false,
       "embedding": false,
       "webSearch": true,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini-3.1-flash-tts-preview": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -11144,6 +11320,17 @@
         "openai"
       ]
     },
+    "gpt-oss-20b:free": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-oss-safeguard-120b": {
       "imageInput": false,
       "imageOutput": false,
@@ -11940,6 +12127,7 @@
       "embedding": false,
       "webSearch": true,
       "providers": [
+        "openai",
         "openAICompatible"
       ]
     },
@@ -11982,7 +12170,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -16723,7 +16911,18 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "muse-spark-1.2-contributor": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -20316,6 +20515,17 @@
     },
     "qwen3.8-2.4t-a95b": {
       "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "qwen3.8-27b": {
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
