@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-08-18",
-  "generated_at": "2026-08-18T01:10:27+00:00",
+  "version": "2026-08-19",
+  "generated_at": "2026-08-19T01:11:15+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -9167,7 +9167,18 @@
     "glm-5.2:free": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "glm-5.3": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
       "reasoning": true,
       "embedding": false,
       "webSearch": false,
@@ -13393,6 +13404,17 @@
       "webSearch": false,
       "providers": [
         "gemini"
+      ]
+    },
+    "lfm-2.5-2.6b:free": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
       ]
     },
     "lfm-40b": {
