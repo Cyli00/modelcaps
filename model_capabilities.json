@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-08-19",
-  "generated_at": "2026-08-19T01:11:15+00:00",
+  "version": "2026-08-20",
+  "generated_at": "2026-08-20T01:10:40+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -5371,6 +5371,17 @@
         "openAICompatible"
       ]
     },
+    "databricks-claude-opus-4-6": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "databricks-claude-sonnet-4": {
       "imageInput": false,
       "imageOutput": false,
@@ -5404,6 +5415,17 @@
         "openAICompatible"
       ]
     },
+    "databricks-claude-sonnet-4-6": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "databricks-gemini-2-5-flash": {
       "imageInput": false,
       "imageOutput": false,
@@ -5416,6 +5438,50 @@
       ]
     },
     "databricks-gemini-2-5-pro": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "databricks-gemini-3-1-flash-lite": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "databricks-gemini-3-1-pro": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "databricks-gemini-3-flash": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "databricks-gemini-3-pro": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -5449,6 +5515,94 @@
       ]
     },
     "databricks-gpt-5-1": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "databricks-gpt-5-1-codex-max": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "databricks-gpt-5-1-codex-mini": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "databricks-gpt-5-2": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "databricks-gpt-5-2-codex": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "databricks-gpt-5-3-codex": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "databricks-gpt-5-4": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "databricks-gpt-5-4-mini": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "databricks-gpt-5-4-nano": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -9230,6 +9384,17 @@
         "openAICompatible"
       ]
     },
+    "glm-latest": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "global.amazon.nova-2-lite-v1:0": {
       "imageInput": true,
       "imageOutput": false,
@@ -12297,6 +12462,17 @@
         "openAICompatible"
       ]
     },
+    "guardrails": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "hermes-2-pro-llama-3-8b": {
       "imageInput": false,
       "imageOutput": false,
@@ -12769,7 +12945,7 @@
     "jamba-large-1.7": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": true,
+      "tool": false,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
