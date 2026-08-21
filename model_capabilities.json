@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-08-20",
-  "generated_at": "2026-08-20T01:10:40+00:00",
+  "version": "2026-08-21",
+  "generated_at": "2026-08-21T01:14:28+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -12605,6 +12605,28 @@
         "openAICompatible"
       ]
     },
+    "hy-mt2-1.8b": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "hy-mt2-30b-a3b": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "hy3": {
       "imageInput": false,
       "imageOutput": false,
@@ -18604,6 +18626,17 @@
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "ox-alpha": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
