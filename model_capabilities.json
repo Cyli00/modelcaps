@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-08-21",
-  "generated_at": "2026-08-21T01:14:28+00:00",
+  "version": "2026-08-22",
+  "generated_at": "2026-08-22T01:10:24+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -3212,6 +3212,17 @@
         "openAICompatible"
       ]
     },
+    "chat-latest": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
     "chatdolphin": {
       "imageInput": false,
       "imageOutput": false,
@@ -4623,7 +4634,7 @@
     "codestral-latest": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": false,
+      "tool": true,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -4746,17 +4757,6 @@
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "cogito-v2.1-671b": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": false,
-      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -5778,6 +5778,28 @@
         "openAICompatible"
       ]
     },
+    "daybreak-blue-latest": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "daybreak-red-latest": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
     "dbrx-instruct": {
       "imageInput": false,
       "imageOutput": false,
@@ -6429,7 +6451,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -6447,6 +6469,17 @@
     },
     "deepseek-v4-flash-thinking": {
       "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "deepseek-v4-flash-vision-exp": {
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -6804,6 +6837,17 @@
       "tool": false,
       "reasoning": false,
       "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "edit": {
+      "imageInput": true,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
       "webSearch": false,
       "providers": [
         "openAICompatible"
@@ -8363,7 +8407,7 @@
     "gemini-3.1-flash-lite-image": {
       "imageInput": true,
       "imageOutput": true,
-      "tool": false,
+      "tool": true,
       "reasoning": true,
       "embedding": false,
       "webSearch": false,
@@ -8486,6 +8530,17 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini-3.5-live-translate-preview": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -9252,6 +9307,17 @@
         "openAICompatible"
       ]
     },
+    "glm-5-2": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "glm-5-code": {
       "imageInput": false,
       "imageOutput": false,
@@ -9302,7 +9368,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -9363,6 +9429,28 @@
       ]
     },
     "glm-5p2": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "glm-5p2-fast": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "glm-5p2-fast-us": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -9517,6 +9605,17 @@
       ]
     },
     "global.anthropic.claude-sonnet-5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "global.xai.grok-4.6": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -11111,6 +11210,17 @@
         "openai"
       ]
     },
+    "gpt-5.6-cyber": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-5.6-luna": {
       "imageInput": true,
       "imageOutput": false,
@@ -11501,17 +11611,6 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-oss-20b:free": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -12765,7 +12864,29 @@
         "openAICompatible"
       ]
     },
+    "inkling-small:free": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "inkling:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "inkling:free": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -13324,7 +13445,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -13396,6 +13517,28 @@
       ]
     },
     "kimi-k3": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "kimi-k3-fast": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "kimi-k3-us": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -16474,6 +16617,17 @@
         "openAICompatible"
       ]
     },
+    "mistral-ocr-4-1": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "mistral-ocr-latest": {
       "imageInput": false,
       "imageOutput": false,
@@ -16623,7 +16777,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -17290,6 +17444,17 @@
         "openAICompatible"
       ]
     },
+    "nemotron-3-ultra-nvfp4": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "nemotron-3.5-content-safety:free": {
       "imageInput": true,
       "imageOutput": false,
@@ -17313,6 +17478,17 @@
       ]
     },
     "nemotron-3.5-lightning:free": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "nemotron-lightning-3p5-30b-a3b": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -18913,6 +19089,28 @@
       "tool": false,
       "reasoning": false,
       "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "pplx-embed-context-v1-0.6b": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "pplx-embed-context-v1-4b": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
       "webSearch": false,
       "providers": [
         "openAICompatible"
@@ -20788,6 +20986,17 @@
         "openAICompatible"
       ]
     },
+    "qwen3p8-max": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "qwq-32b": {
       "imageInput": false,
       "imageOutput": false,
@@ -22119,6 +22328,28 @@
         "openAICompatible"
       ]
     },
+    "swe-1.6": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "swe-1.7": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "text-bison": {
       "imageInput": false,
       "imageOutput": false,
@@ -23057,6 +23288,17 @@
         "openAICompatible"
       ]
     },
+    "us.xai.grok-4.6": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "v0-1.0-md": {
       "imageInput": true,
       "imageOutput": false,
@@ -23348,6 +23590,39 @@
         "openAICompatible"
       ]
     },
+    "voyage-4": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "voyage-4-large": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "voyage-4-lite": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "voyage-code-2": {
       "imageInput": false,
       "imageOutput": false,
@@ -23370,7 +23645,29 @@
         "openAICompatible"
       ]
     },
+    "voyage-code-4": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "voyage-context-3": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "voyage-context-4": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -23437,6 +23734,17 @@
       ]
     },
     "voyage-multimodal-3": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "voyage-multimodal-3.5": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -23700,6 +24008,17 @@
         "openAICompatible"
       ]
     },
+    "xai.grok-4.6": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "xai.grok-code-fast-1": {
       "imageInput": false,
       "imageOutput": false,
@@ -23778,6 +24097,17 @@
       ]
     },
     "zai-glm-4.7": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "zai-glm-5-2": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
