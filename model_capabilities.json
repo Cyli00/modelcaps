@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-08-24",
-  "generated_at": "2026-08-24T01:13:51+00:00",
+  "version": "2026-08-25",
+  "generated_at": "2026-08-25T01:12:24+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -13846,28 +13846,6 @@
         "openAICompatible"
       ]
     },
-    "ling-2.6-1t": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "ling-2.6-flash": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "ling-3.0-flash": {
       "imageInput": false,
       "imageOutput": false,
@@ -17433,17 +17411,6 @@
         "openAICompatible"
       ]
     },
-    "nemotron-3-nano-30b-a3b:free": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "nemotron-3-nano-omni-30b-a3b-reasoning:free": {
       "imageInput": true,
       "imageOutput": false,
@@ -17555,28 +17522,6 @@
       ]
     },
     "nemotron-lightning-3p5-30b-a3b": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "nemotron-nano-12b-v2-vl:free": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "nemotron-nano-9b-v2:free": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -21310,17 +21255,6 @@
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "ring-2.6-1t": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
