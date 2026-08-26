@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-08-25",
-  "generated_at": "2026-08-25T01:12:24+00:00",
+  "version": "2026-08-26",
+  "generated_at": "2026-08-26T01:14:42+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -8878,17 +8878,6 @@
         "openAICompatible"
       ]
     },
-    "gemma-3n-e4b-it": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "gemma-4-26b": {
       "imageInput": false,
       "imageOutput": false,
@@ -15872,6 +15861,17 @@
         "openAICompatible"
       ]
     },
+    "minimax-m2.7:free": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "minimax-m2p1": {
       "imageInput": false,
       "imageOutput": false,
@@ -15906,6 +15906,17 @@
       ]
     },
     "minimax-m3:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "minimax-m3:free": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -19414,17 +19425,6 @@
       ]
     },
     "qwen-plus-2025-07-28": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "qwen-plus-2025-07-28:thinking": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
