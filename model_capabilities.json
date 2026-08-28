@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-08-27",
-  "generated_at": "2026-08-27T07:44:02+00:00",
+  "version": "2026-08-28",
+  "generated_at": "2026-08-28T09:48:28+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -281,7 +281,7 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -585,11 +585,33 @@
         "openAICompatible"
       ]
     },
+    "GLM-4.7-Flash": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "GLM-5": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "GLM-5.1": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -609,6 +631,17 @@
     },
     "GLM-5.2": {
       "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "GLM-5.3-Flash": {
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -695,11 +728,22 @@
         "openAICompatible"
       ]
     },
-    "Inkling": {
+    "Hy3": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Inkling": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -707,10 +751,10 @@
       ]
     },
     "Inkling-Small": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -762,7 +806,7 @@
       ]
     },
     "Kimi-K2.6": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -776,7 +820,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -838,6 +882,17 @@
         "openAICompatible"
       ]
     },
+    "Ling-3.0-flash": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "Llama-2-13b-chat-hf": {
       "imageInput": false,
       "imageOutput": false,
@@ -861,6 +916,17 @@
       ]
     },
     "Llama-2-7b-chat-hf": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Llama-3.1-70B-Instruct": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -1128,6 +1194,17 @@
         "openai"
       ]
     },
+    "Mellum2-12B-A2.5B-Instruct": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "Meta-Llama-3-70B-Instruct": {
       "imageInput": false,
       "imageOutput": false,
@@ -1286,6 +1363,28 @@
         "openAICompatible"
       ]
     },
+    "MiMo-V2.5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "MiMo-V2.5-Pro": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "MiniMax-M2": {
       "imageInput": false,
       "imageOutput": false,
@@ -1342,6 +1441,17 @@
       ]
     },
     "MiniMax-M2.7": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "MiniMax-M2.7-Turbo": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -1441,10 +1551,10 @@
       ]
     },
     "Muse-Glimmer-30B": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -1462,11 +1572,44 @@
         "openAICompatible"
       ]
     },
+    "NVIDIA-Nemotron-3-Super-120B-A12B": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "NVIDIA-Nemotron-3-Ultra-550B-A55B": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "NVIDIA-Nemotron-3.5-Lightning": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "NVIDIA-Nemotron-3.5-Lightning-30B-A3B": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -1486,6 +1629,28 @@
     },
     "Nemotron-120B-A12B": {
       "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Nemotron-3-Nano-30B-A3B": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Nemotron-Content-Safety-3.5": {
+      "imageInput": true,
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
@@ -1870,6 +2035,17 @@
         "openAICompatible"
       ]
     },
+    "Qwen3-14B-Instruct": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "Qwen3-235B-A22B": {
       "imageInput": false,
       "imageOutput": false,
@@ -1929,6 +2105,17 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Qwen3-30B-A3B-Instruct-2507": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -2013,6 +2200,28 @@
         "openAICompatible"
       ]
     },
+    "Qwen3-Max": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Qwen3-Max-Thinking": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "Qwen3-Next-80B-A3B-Instruct": {
       "imageInput": false,
       "imageOutput": false,
@@ -2035,6 +2244,17 @@
         "openAICompatible"
       ]
     },
+    "Qwen3-VL-235B-A22B-Instruct": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "Qwen3-VL-235B-A22B-Instruct-FP8": {
       "imageInput": true,
       "imageOutput": false,
@@ -2046,11 +2266,55 @@
         "openAICompatible"
       ]
     },
-    "Qwen3.5-397B-A17B": {
-      "imageInput": false,
+    "Qwen3-VL-30B-A3B-Instruct": {
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Qwen3.5-122B-A10B": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Qwen3.5-27B": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Qwen3.5-35B-A3B": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Qwen3.5-397B-A17B": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -2079,8 +2343,30 @@
         "openAICompatible"
       ]
     },
+    "Qwen3.6-27B": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "Qwen3.6-27B-FP8": {
       "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Qwen3.6-35B-A3B": {
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -2104,7 +2390,7 @@
     "Qwen3.7-Max": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": false,
+      "tool": true,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -2126,8 +2412,19 @@
     "Qwen3.8-2.4T-A95B": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Qwen3.8-27B": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -2171,6 +2468,61 @@
       "imageInput": false,
       "imageOutput": true,
       "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Seed-1.8": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Seed-2.0-code": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Seed-2.0-mini": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Seed-2.0-pro": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Step-3.7-Flash": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -4488,6 +4840,17 @@
         "anthropic"
       ]
     },
+    "cobuddy": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "code-llama-13b": {
       "imageInput": false,
       "imageOutput": false,
@@ -4775,6 +5138,17 @@
       ]
     },
     "codestral-2508": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "codestral-2508:batch": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -5413,6 +5787,17 @@
         "openAICompatible"
       ]
     },
+    "community": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "computer-use-preview": {
       "imageInput": true,
       "imageOutput": false,
@@ -5745,6 +6130,17 @@
         "openAICompatible"
       ]
     },
+    "databricks-glm-5-2": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "databricks-gpt-5": {
       "imageInput": false,
       "imageOutput": false,
@@ -5905,6 +6301,17 @@
       "tool": false,
       "reasoning": false,
       "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "databricks-kimi-k3": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
       "webSearch": false,
       "providers": [
         "openAICompatible"
@@ -6253,6 +6660,17 @@
       ]
     },
     "deepseek-ocr": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "deepseek-ocr-2": {
       "imageInput": true,
       "imageOutput": false,
       "tool": false,
@@ -6770,6 +7188,17 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "deepseek_v3": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -8701,6 +9130,17 @@
         "gemini"
       ]
     },
+    "gemini-3.1-pro": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
     "gemini-3.1-pro-preview": {
       "imageInput": true,
       "imageOutput": false,
@@ -8779,6 +9219,28 @@
       ]
     },
     "gemini-3.5-live-translate-preview": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini-3.5-transcribe": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini-3.5-transcribe-live": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -8939,6 +9401,17 @@
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini-live-2.5-flash-native-audio": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -9120,6 +9593,17 @@
         "openAICompatible"
       ]
     },
+    "gemma-4-26B-A4B-it": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "gemma-4-26b": {
       "imageInput": false,
       "imageOutput": false,
@@ -9175,6 +9659,28 @@
         "openAICompatible"
       ]
     },
+    "gemma-4-31B-it-Ultra": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "gemma-4-31B-it-turbo": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "gemma-4-31b-it": {
       "imageInput": true,
       "imageOutput": false,
@@ -9199,6 +9705,17 @@
     },
     "gemma-4-31b-it:free": {
       "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "gemma-4-E4B-it": {
+      "imageInput": false,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -9322,6 +9839,17 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "glm-4-32b-0414": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -9463,6 +9991,17 @@
     },
     "glm-4.7-flash": {
       "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "glm-4.7-h": {
+      "imageInput": false,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -9861,7 +10400,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -9872,7 +10411,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -9883,7 +10422,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -10070,17 +10609,6 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-3.5-turbo:batch": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -10297,17 +10825,6 @@
         "openai"
       ]
     },
-    "gpt-4-turbo:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-4.1": {
       "imageInput": true,
       "imageOutput": false,
@@ -10352,17 +10869,6 @@
         "openai"
       ]
     },
-    "gpt-4.1-mini:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-4.1-nano": {
       "imageInput": true,
       "imageOutput": false,
@@ -10375,28 +10881,6 @@
       ]
     },
     "gpt-4.1-nano-2025-04-14": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-4.1-nano:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-4.1:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -10660,17 +11144,6 @@
         "openai"
       ]
     },
-    "gpt-4o-mini:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": true,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-4o-realtime-preview": {
       "imageInput": false,
       "imageOutput": false,
@@ -10759,17 +11232,6 @@
         "openai"
       ]
     },
-    "gpt-4o:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": true,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-5": {
       "imageInput": true,
       "imageOutput": false,
@@ -10825,17 +11287,6 @@
         "openai"
       ]
     },
-    "gpt-5-codex:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-5-image": {
       "imageInput": true,
       "imageOutput": true,
@@ -10880,17 +11331,6 @@
         "openai"
       ]
     },
-    "gpt-5-mini:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-5-nano": {
       "imageInput": true,
       "imageOutput": false,
@@ -10913,17 +11353,6 @@
         "openai"
       ]
     },
-    "gpt-5-nano:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-5-pro": {
       "imageInput": true,
       "imageOutput": false,
@@ -10942,17 +11371,6 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-5-pro:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -11089,17 +11507,6 @@
         "openai"
       ]
     },
-    "gpt-5.1:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-5.2": {
       "imageInput": true,
       "imageOutput": false,
@@ -11184,28 +11591,6 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-5.2-pro:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-5.2:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -11320,17 +11705,6 @@
         "openai"
       ]
     },
-    "gpt-5.4-mini:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-5.4-nano": {
       "imageInput": true,
       "imageOutput": false,
@@ -11353,17 +11727,6 @@
         "openai"
       ]
     },
-    "gpt-5.4-nano:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-5.4-pro": {
       "imageInput": true,
       "imageOutput": false,
@@ -11382,28 +11745,6 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-5.4-pro:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-5.4:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -11452,28 +11793,6 @@
         "openai"
       ]
     },
-    "gpt-5.5-pro:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-5.5:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-5.6": {
       "imageInput": true,
       "imageOutput": false,
@@ -11518,28 +11837,6 @@
         "openai"
       ]
     },
-    "gpt-5.6-luna-pro:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-5.6-luna:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-5.6-sol": {
       "imageInput": true,
       "imageOutput": false,
@@ -11562,28 +11859,6 @@
         "openai"
       ]
     },
-    "gpt-5.6-sol-pro:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-5.6-sol:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-5.6-terra": {
       "imageInput": true,
       "imageOutput": false,
@@ -11596,39 +11871,6 @@
       ]
     },
     "gpt-5.6-terra-pro": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-5.6-terra-pro:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-5.6-terra:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "gpt-5:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -11833,6 +12075,28 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-oss-120b-Turbo": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-oss-120b-Ultra": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -12239,29 +12503,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": true,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "grok-2-1212": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": true,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "grok-2-latest": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openAICompatible"
       ]
@@ -12272,29 +12514,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": true,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "grok-2-vision-1212": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": true,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "grok-2-vision-latest": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openAICompatible"
       ]
@@ -12736,17 +12956,6 @@
         "openAICompatible"
       ]
     },
-    "grok-beta": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": true,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "grok-build-0.1": {
       "imageInput": true,
       "imageOutput": false,
@@ -12799,17 +13008,6 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "grok-vision-beta": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -13035,6 +13233,17 @@
       ]
     },
     "hy3-preview": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "hy4-preview": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -13747,17 +13956,6 @@
         "openAICompatible"
       ]
     },
-    "kimi-k2.7-code:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "kimi-k2p5": {
       "imageInput": false,
       "imageOutput": false,
@@ -14078,6 +14276,28 @@
       ]
     },
     "ling-3.0-flash": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "ling-3.0-flash-fast": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "ling-3.0-flash-fin:free": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -15432,6 +15652,28 @@
         "openAICompatible"
       ]
     },
+    "macaron-v1-tall": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "macaron-v1-venti": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "magistral-medium": {
       "imageInput": false,
       "imageOutput": false,
@@ -16092,7 +16334,29 @@
         "openAICompatible"
       ]
     },
+    "minimax-m2.5-highspeed": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "minimax-m2.7": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "minimax-m2.7-highspeed": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -16213,6 +16477,17 @@
         "openAICompatible"
       ]
     },
+    "ministral-14b-latest": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "ministral-3-14b-2512": {
       "imageInput": true,
       "imageOutput": false,
@@ -16302,6 +16577,17 @@
         "openAICompatible"
       ]
     },
+    "ministral-3b-latest": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "ministral-8b": {
       "imageInput": true,
       "imageOutput": false,
@@ -16314,6 +16600,17 @@
       ]
     },
     "ministral-8b-2512": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "ministral-8b-2512:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -16522,6 +16819,17 @@
         "openAICompatible"
       ]
     },
+    "mistral-embed-2312": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "mistral-large": {
       "imageInput": false,
       "imageOutput": false,
@@ -16570,6 +16878,17 @@
       ]
     },
     "mistral-large-2512": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "mistral-large-2512:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -16730,7 +17049,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -16759,7 +17078,29 @@
         "openAICompatible"
       ]
     },
+    "mistral-medium-3-5:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "mistral-medium-3.1": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "mistral-medium-3.1:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -17005,6 +17346,17 @@
       ]
     },
     "mistral-small-2603": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "mistral-small-2603:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -18390,28 +18742,6 @@
         "openai"
       ]
     },
-    "o1-pro:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": false,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "o1:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "o3": {
       "imageInput": true,
       "imageOutput": false,
@@ -18489,28 +18819,6 @@
         "openai"
       ]
     },
-    "o3-mini-high:batch": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "o3-mini:batch": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "o3-pro": {
       "imageInput": true,
       "imageOutput": false,
@@ -18529,28 +18837,6 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
-      "providers": [
-        "openai"
-      ]
-    },
-    "o3-pro:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "o3:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -18600,28 +18886,6 @@
       ]
     },
     "o4-mini-high": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "o4-mini-high:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
-    "o4-mini:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -18875,6 +19139,17 @@
       ]
     },
     "openai.gpt-5.5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "openai.gpt-5.6-cyber": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -19601,6 +19876,28 @@
       ]
     },
     "qwen-image-2.0-pro": {
+      "imageInput": false,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "qwen-image-3.0": {
+      "imageInput": false,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "qwen-image-3.0-pro": {
       "imageInput": false,
       "imageOutput": true,
       "tool": false,
@@ -20516,7 +20813,7 @@
     "qwen3-4b-fp8": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": false,
+      "tool": true,
       "reasoning": true,
       "embedding": false,
       "webSearch": false,
@@ -20781,7 +21078,7 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -21515,17 +21812,6 @@
       ]
     },
     "rerank-v3.5": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "rocinante-12b": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -23567,7 +23853,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -23578,7 +23864,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -23589,7 +23875,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -23876,6 +24162,17 @@
         "openAICompatible"
       ]
     },
+    "voxtral-mini-transcribe-realtime-latest": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "voxtral-mini-tts-2603": {
       "imageInput": false,
       "imageOutput": false,
@@ -23887,7 +24184,40 @@
         "openAICompatible"
       ]
     },
+    "voxtral-mini-tts-latest": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "voxtral-small-24b-2507": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "voxtral-small-2507": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "voxtral-small-latest": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
