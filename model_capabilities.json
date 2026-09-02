@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-01",
-  "generated_at": "2026-09-01T03:46:40+00:00",
+  "version": "2026-09-02",
+  "generated_at": "2026-09-02T03:05:58+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -684,7 +684,7 @@
         "openAICompatible"
       ]
     },
-    "GigaChat-2-Lite": {
+    "GigaChat-2": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -712,6 +712,17 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "GigaEmbeddings-3B-2025-09": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
       "webSearch": false,
       "providers": [
         "openAICompatible"
@@ -2442,6 +2453,17 @@
         "openAICompatible"
       ]
     },
+    "Qwen3.8-Flash": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "Qwen3.8-Max": {
       "imageInput": true,
       "imageOutput": false,
@@ -2761,6 +2783,17 @@
         "openAICompatible"
       ]
     },
+    "amazon.nova-2-sonic-v1:0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "amazon.nova-canvas-v1:0": {
       "imageInput": false,
       "imageOutput": true,
@@ -2798,6 +2831,17 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "amazon.nova-sonic-v1:0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -3059,6 +3103,17 @@
       ]
     },
     "anthropic.claude-fable-5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "anthropic.claude-fable-5-1": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -4147,6 +4202,39 @@
         "anthropic"
       ]
     },
+    "claude-fable-5-1": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-fable-5-1@default": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-fable-5.1": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
     "claude-fable-5:batch": {
       "imageInput": true,
       "imageOutput": false,
@@ -4532,17 +4620,6 @@
         "anthropic"
       ]
     },
-    "claude-opus-4.7-fast": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "anthropic"
-      ]
-    },
     "claude-opus-4.7:batch": {
       "imageInput": true,
       "imageOutput": false,
@@ -4555,17 +4632,6 @@
       ]
     },
     "claude-opus-4.8": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "anthropic"
-      ]
-    },
-    "claude-opus-4.8-fast": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -4610,17 +4676,6 @@
       ]
     },
     "claude-opus-5": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "anthropic"
-      ]
-    },
-    "claude-opus-5-fast": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -5149,17 +5204,6 @@
       ]
     },
     "codestral-2508": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "codestral-2508:batch": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -6055,6 +6099,28 @@
     },
     "databricks-claude-sonnet-5": {
       "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "databricks-deepseek-v4-flash-0731": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "databricks-deepseek-v4-pro-0813": {
+      "imageInput": false,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -7135,6 +7201,7 @@
       "embedding": false,
       "webSearch": true,
       "providers": [
+        "openai",
         "openAICompatible"
       ]
     },
@@ -7976,6 +8043,17 @@
       ]
     },
     "eu.anthropic.claude-fable-5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "eu.anthropic.claude-fable-5-1": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -9759,6 +9837,17 @@
         "openAICompatible"
       ]
     },
+    "gemma-4-31b": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "gemma-4-31b-it": {
       "imageInput": true,
       "imageOutput": false,
@@ -10365,6 +10454,17 @@
         "openAICompatible"
       ]
     },
+    "glm-flash-latest": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "glm-latest": {
       "imageInput": false,
       "imageOutput": false,
@@ -10388,6 +10488,17 @@
       ]
     },
     "global.anthropic.claude-fable-5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "global.anthropic.claude-fable-5-1": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -16413,6 +16524,17 @@
         "openAICompatible"
       ]
     },
+    "mercury-2.5-preview": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "mercury-coder-small": {
       "imageInput": false,
       "imageOutput": false,
@@ -17173,17 +17295,6 @@
         "openAICompatible"
       ]
     },
-    "ministral-8b-2512:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "ministral-8b-latest": {
       "imageInput": true,
       "imageOutput": false,
@@ -17484,17 +17595,6 @@
         "openAICompatible"
       ]
     },
-    "mistral-large-2512:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "mistral-large-3": {
       "imageInput": true,
       "imageOutput": false,
@@ -17686,17 +17786,6 @@
       ]
     },
     "mistral-medium-3.1": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "mistral-medium-3.1:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -17986,17 +18075,6 @@
       ]
     },
     "mistral-small-2603": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "mistral-small-2603:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -22660,6 +22738,17 @@
         "openAICompatible"
       ]
     },
+    "scribe_v2": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "sd3": {
       "imageInput": false,
       "imageOutput": true,
@@ -24303,6 +24392,17 @@
       ]
     },
     "us.anthropic.claude-fable-5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us.anthropic.claude-fable-5-1": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
