@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-03",
-  "generated_at": "2026-09-03T03:08:53+00:00",
+  "version": "2026-09-04",
+  "generated_at": "2026-09-04T03:06:52+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -285,6 +285,7 @@
       "embedding": false,
       "webSearch": false,
       "providers": [
+        "openai",
         "openAICompatible"
       ]
     },
@@ -7212,7 +7213,6 @@
       "embedding": false,
       "webSearch": true,
       "providers": [
-        "openai",
         "openAICompatible"
       ]
     },
@@ -9456,7 +9456,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -10470,6 +10470,17 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "glm-5p3-flash": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -12423,6 +12434,17 @@
         "openai"
       ]
     },
+    "gpt-6-astra": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-audio": {
       "imageInput": false,
       "imageOutput": false,
@@ -13531,6 +13553,17 @@
         "openAICompatible"
       ]
     },
+    "grok-4.3:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "grok-4.5": {
       "imageInput": true,
       "imageOutput": false,
@@ -13571,6 +13604,17 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "grok-build-latest": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -14638,7 +14682,8 @@
       "embedding": false,
       "webSearch": true,
       "providers": [
-        "openAICompatible"
+        "openAICompatible",
+        "openai"
       ]
     },
     "kimi-k2p5": {
@@ -14994,6 +15039,17 @@
       ]
     },
     "ling-3.0-flash-fast": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "ling-3.0-flash-fin": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -16426,7 +16482,7 @@
       ]
     },
     "magistral-medium-latest": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -16470,7 +16526,7 @@
       ]
     },
     "magistral-small-latest": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -17719,10 +17775,10 @@
       ]
     },
     "mistral-medium": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -18762,7 +18818,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -18773,7 +18829,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -18914,6 +18970,17 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "nemotron-3.5-content-safety": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
       "reasoning": true,
       "embedding": false,
       "webSearch": false,
@@ -19972,7 +20039,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -19983,7 +20050,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -20005,7 +20072,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -20016,7 +20083,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -20027,7 +20094,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -22628,6 +22695,28 @@
         "openAICompatible"
       ]
     },
+    "rerank-3": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "rerank-3-lite": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "rerank-english-v2.0": {
       "imageInput": false,
       "imageOutput": false,
@@ -22925,7 +23014,29 @@
         "openAICompatible"
       ]
     },
+    "search-fast": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "search-pro": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "search-turbo": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -24270,7 +24381,29 @@
         "openAICompatible"
       ]
     },
+    "us-gov.anthropic.claude-opus-4-8": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "us-gov.anthropic.claude-sonnet-4-5-20250929-v1:0": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us-gov.anthropic.claude-sonnet-5": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
