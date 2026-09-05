@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-04",
-  "generated_at": "2026-09-04T03:06:52+00:00",
+  "version": "2026-09-05",
+  "generated_at": "2026-09-05T03:09:12+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -12445,6 +12445,39 @@
         "openai"
       ]
     },
+    "gpt-6-astra-pro": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-6-astra-pro:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-6-astra:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-audio": {
       "imageInput": false,
       "imageOutput": false,
@@ -13009,7 +13042,7 @@
     "granite-4.1-8b": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": true,
+      "tool": false,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -15061,6 +15094,17 @@
       ]
     },
     "ling-3.0-flash-fin:free": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "ling-3.0-flash-sante:free": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
