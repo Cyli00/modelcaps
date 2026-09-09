@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-08",
-  "generated_at": "2026-09-08T03:15:40+00:00",
+  "version": "2026-09-09",
+  "generated_at": "2026-09-09T03:18:43+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -3976,7 +3976,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": true,
       "providers": [
@@ -7634,6 +7634,17 @@
         "openAICompatible"
       ]
     },
+    "deepseek-v4-flash-vision-exp:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "deepseek-v4-pro": {
       "imageInput": false,
       "imageOutput": false,
@@ -8626,6 +8637,17 @@
       ]
     },
     "eu.twelvelabs.marengo-embed-2-7-v1:0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "eu.twelvelabs.marengo-embed-3-0-v1:0": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -10740,6 +10762,17 @@
         "openAICompatible"
       ]
     },
+    "glm-5.2:batch": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "glm-5.2:free": {
       "imageInput": false,
       "imageOutput": false,
@@ -10775,6 +10808,17 @@
     },
     "glm-5.3-flash:batch": {
       "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "glm-5.3:batch": {
+      "imageInput": false,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -16832,6 +16876,17 @@
         "openAICompatible"
       ]
     },
+    "lyria-002": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "lyria-3-clip-preview": {
       "imageInput": true,
       "imageOutput": false,
@@ -17076,7 +17131,7 @@
         "openAICompatible"
       ]
     },
-    "mercury-2.5-preview": {
+    "mercury-2.5": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -19540,8 +19595,8 @@
         "openAICompatible"
       ]
     },
-    "nex-n2-mini": {
-      "imageInput": true,
+    "nex-n2.5-mini:free": {
+      "imageInput": false,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -19551,7 +19606,7 @@
         "openAICompatible"
       ]
     },
-    "nex-n2-pro": {
+    "nex-n2.5-pro:free": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -20149,7 +20204,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": true,
       "providers": [
@@ -20259,7 +20314,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": true,
       "providers": [
@@ -20270,7 +20325,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": true,
       "providers": [
@@ -24845,6 +24900,17 @@
         "openAICompatible"
       ]
     },
+    "twelvelabs.marengo-embed-3-0-v1:0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "twelvelabs.pegasus-1-2-v1:0": {
       "imageInput": false,
       "imageOutput": false,
@@ -24889,7 +24955,40 @@
         "openAICompatible"
       ]
     },
+    "us-gov.anthropic.claude-3-haiku-20240307-v1:0": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us-gov.anthropic.claude-fable-5-1": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "us-gov.anthropic.claude-opus-4-8": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us-gov.anthropic.claude-opus-5": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -24912,6 +25011,83 @@
       ]
     },
     "us-gov.anthropic.claude-sonnet-5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us-gov.nvidia.nemotron-nano-12b-v2": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us-gov.nvidia.nemotron-nano-3-30b": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us-gov.nvidia.nemotron-nano-9b-v2": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us-gov.nvidia.nemotron-super-3-120b": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us-gov.openai.gpt-oss-120b-1:0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us-gov.openai.gpt-oss-20b-1:0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us-gov.xai.grok-4.6": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -25407,6 +25583,17 @@
       ]
     },
     "us.twelvelabs.marengo-embed-2-7-v1:0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us.twelvelabs.marengo-embed-3-0-v1:0": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
