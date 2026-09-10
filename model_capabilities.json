@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-09",
-  "generated_at": "2026-09-09T03:18:43+00:00",
+  "version": "2026-09-10",
+  "generated_at": "2026-09-10T03:18:11+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -5381,6 +5381,17 @@
       ]
     },
     "codestral-2508": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "codestral-2508:batch": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -14325,17 +14336,6 @@
         "openAICompatible"
       ]
     },
-    "hermes-4-70b": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": false,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "hermes3-405b": {
       "imageInput": false,
       "imageOutput": false,
@@ -17902,6 +17902,17 @@
         "openAICompatible"
       ]
     },
+    "ministral-8b-2512:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "ministral-8b-latest": {
       "imageInput": true,
       "imageOutput": false,
@@ -18202,6 +18213,17 @@
         "openAICompatible"
       ]
     },
+    "mistral-large-2512:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "mistral-large-3": {
       "imageInput": true,
       "imageOutput": false,
@@ -18393,6 +18415,17 @@
       ]
     },
     "mistral-medium-3.1": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "mistral-medium-3.1:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -18683,6 +18716,17 @@
       ]
     },
     "mistral-small-2603": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "mistral-small-2603:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -19596,7 +19640,7 @@
       ]
     },
     "nex-n2.5-mini:free": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
