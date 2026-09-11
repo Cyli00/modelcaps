@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-10",
-  "generated_at": "2026-09-10T03:18:11+00:00",
+  "version": "2026-09-11",
+  "generated_at": "2026-09-11T03:13:43+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -337,7 +337,7 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -579,7 +579,7 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -1742,7 +1742,7 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -2249,7 +2249,7 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -5567,6 +5567,17 @@
         "openAICompatible"
       ]
     },
+    "cohere-command-a": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "cohere-rerank-v3-english": {
       "imageInput": false,
       "imageOutput": false,
@@ -7681,6 +7692,17 @@
     },
     "deepseek-v4-pro-0813:batch": {
       "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "deepseek-v4.1-flash": {
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -11092,6 +11114,17 @@
         "openAICompatible"
       ]
     },
+    "global.cohere.embed-v4:0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "global.openai.gpt-5.6-luna": {
       "imageInput": true,
       "imageOutput": false,
@@ -11119,6 +11152,28 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "global.openai.gpt-6-astra": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "global.twelvelabs.pegasus-1-2-v1:0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -12988,9 +13043,9 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13073,6 +13128,50 @@
       ]
     },
     "gpt-image-2-2026-04-21": {
+      "imageInput": true,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-image-2.5-flare": {
+      "imageInput": true,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-image-2.5-flare-2026-09-08": {
+      "imageInput": true,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-image-2.5-sunburst": {
+      "imageInput": true,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-image-2.5-sunburst-2026-09-08": {
       "imageInput": true,
       "imageOutput": true,
       "tool": false,
@@ -13814,6 +13913,28 @@
         "openAICompatible"
       ]
     },
+    "grok-4-20-non-reasoning": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "grok-4-20-reasoning": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
     "grok-4-fast-non-reasoning": {
       "imageInput": false,
       "imageOutput": false,
@@ -14207,6 +14328,50 @@
     "grok-imagine-image-quality-latest": {
       "imageInput": false,
       "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "grok-imagine-video": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "grok-imagine-video-1.5": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "grok-imagine-video-1.5-2026-05-30": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "grok-imagine-video-1.5-preview": {
+      "imageInput": false,
+      "imageOutput": false,
       "tool": false,
       "reasoning": false,
       "embedding": false,
@@ -15547,6 +15712,17 @@
     },
     "ling-3.0-flash-sante:free": {
       "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "ling-3.0-flash-vl:free": {
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -16909,6 +17085,17 @@
       "providers": [
         "gemini",
         "openAICompatible"
+      ]
+    },
+    "lyria-3.5": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
       ]
     },
     "lyria-3.5-clip-preview": {
@@ -19100,6 +19287,17 @@
         "openAICompatible"
       ]
     },
+    "model-router": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "model_router": {
       "imageInput": false,
       "imageOutput": false,
@@ -20680,6 +20878,28 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "openai.gpt-6-astra": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "openai.gpt-daybreak-blue-5.6-sol": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
       "providers": [
         "openAICompatible"
       ]
@@ -23379,6 +23599,28 @@
         "openAICompatible"
       ]
     },
+    "rerank-v4.0-fast": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "rerank-v4.0-pro": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "rolm-ocr": {
       "imageInput": false,
       "imageOutput": false,
@@ -25450,6 +25692,17 @@
         "openAICompatible"
       ]
     },
+    "us.cohere.embed-v4:0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "us.deepseek.r1-v1:0": {
       "imageInput": false,
       "imageOutput": false,
@@ -25616,6 +25869,17 @@
       ]
     },
     "us.openai.gpt-5.6-terra": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us.openai.gpt-6-astra": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -26225,6 +26489,17 @@
         "openAICompatible"
       ]
     },
+    "voyage-multilingual-2": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "voyage-multimodal-3": {
       "imageInput": false,
       "imageOutput": false,
@@ -26266,6 +26541,7 @@
       "embedding": false,
       "webSearch": false,
       "providers": [
+        "openai",
         "openAICompatible"
       ]
     },
