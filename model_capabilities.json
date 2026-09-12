@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-11",
-  "generated_at": "2026-09-11T03:13:43+00:00",
+  "version": "2026-09-12",
+  "generated_at": "2026-09-12T03:19:24+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -9241,7 +9241,29 @@
         "openai"
       ]
     },
+    "fugu-max": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "fugu-ultra": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "fugu-ultra-v2": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -12962,6 +12984,17 @@
         "openai"
       ]
     },
+    "gpt-astra-latest": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-audio": {
       "imageInput": false,
       "imageOutput": false,
@@ -13182,22 +13215,22 @@
         "openai"
       ]
     },
-    "gpt-latest": {
-      "imageInput": true,
+    "gpt-live-transcribe": {
+      "imageInput": false,
       "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
+      "tool": false,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
         "openai"
       ]
     },
-    "gpt-live-transcribe": {
-      "imageInput": false,
+    "gpt-luna-latest": {
+      "imageInput": true,
       "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -13495,6 +13528,28 @@
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-sol-latest": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-terra-latest": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -15712,6 +15767,17 @@
     },
     "ling-3.0-flash-sante:free": {
       "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "ling-3.0-flash-vl": {
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -23681,6 +23747,28 @@
       "imageOutput": false,
       "tool": false,
       "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "schematron-v2-small": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "schematron-v2-turbo": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
