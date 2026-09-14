@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-13",
-  "generated_at": "2026-09-13T03:24:25+00:00",
+  "version": "2026-09-14",
+  "generated_at": "2026-09-14T03:35:28+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -292,7 +292,7 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -841,6 +841,17 @@
     },
     "Inkling-Small": {
       "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "K-EXAONE-2.0-750B-A37B": {
+      "imageInput": false,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
