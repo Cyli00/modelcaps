@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-16",
-  "generated_at": "2026-09-16T03:32:39+00:00",
+  "version": "2026-09-17",
+  "generated_at": "2026-09-17T03:38:15+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -347,7 +347,7 @@
     "DeepSeek-V4.1-Flash": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": false,
+      "tool": true,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -8416,6 +8416,17 @@
         "openAICompatible"
       ]
     },
+    "doubao-seed-2-1-pro-260628": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "doubao-seed-2-1-turbo": {
       "imageInput": true,
       "imageOutput": false,
@@ -8423,6 +8434,17 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "doubao-seed-2-1-turbo-260628": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
       "providers": [
         "openAICompatible"
       ]
@@ -9775,7 +9797,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -9858,12 +9880,12 @@
       ]
     },
     "gemini-2.5-flash-native-audio-preview-12-2025": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
-      "tool": false,
+      "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -10080,7 +10102,7 @@
     "gemini-3.1-flash-lite-image": {
       "imageInput": true,
       "imageOutput": true,
-      "tool": true,
+      "tool": false,
       "reasoning": true,
       "embedding": false,
       "webSearch": false,
@@ -10341,6 +10363,28 @@
         "gemini"
       ]
     },
+    "gemini-3.8-live": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini-3.8-live-extended-thinking": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "gemini"
+      ]
+    },
     "gemini-embedding-001": {
       "imageInput": false,
       "imageOutput": false,
@@ -10353,7 +10397,7 @@
       ]
     },
     "gemini-embedding-2": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
@@ -11381,8 +11425,8 @@
     "glm-5p3-fast": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -13193,6 +13237,17 @@
         "openai"
       ]
     },
+    "gpt-5.5-2026-04-24": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-5.5-cyber": {
       "imageInput": false,
       "imageOutput": false,
@@ -13281,6 +13336,17 @@
         "openai"
       ]
     },
+    "gpt-5.6-luna-2026-07-09": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-5.6-luna-pro": {
       "imageInput": true,
       "imageOutput": false,
@@ -13315,6 +13381,17 @@
       ]
     },
     "gpt-5.6-sol": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-5.6-sol-2026-07-09": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -13380,6 +13457,17 @@
         "openai"
       ]
     },
+    "gpt-5.6-terra-2026-07-09": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-5.6-terra-pro": {
       "imageInput": true,
       "imageOutput": false,
@@ -13425,6 +13513,17 @@
       ]
     },
     "gpt-6-astra": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-6-astra-2026-09-03": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -25859,10 +25958,21 @@
         "openAICompatible"
       ]
     },
+    "union-alpha": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "unslopnemo-12b": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": true,
+      "tool": false,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -27273,6 +27383,17 @@
         "openAICompatible"
       ]
     },
+    "writer.palmyra-vision-7b": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "writer.palmyra-x4-v1:0": {
       "imageInput": false,
       "imageOutput": false,
@@ -27504,7 +27625,40 @@
         "openAICompatible"
       ]
     },
+    "zai-glm-5": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "zai-glm-5-2": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "zai-glm-5-3": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "zai-glm-latest": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
