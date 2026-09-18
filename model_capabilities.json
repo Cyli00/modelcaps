@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-17",
-  "generated_at": "2026-09-17T03:38:15+00:00",
+  "version": "2026-09-18",
+  "generated_at": "2026-09-18T03:23:58+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -7942,6 +7942,17 @@
         "openAICompatible"
       ]
     },
+    "deepseek-v4-flash-0731:free": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "deepseek-v4-flash-latest": {
       "imageInput": false,
       "imageOutput": false,
@@ -15654,6 +15665,39 @@
         "openAICompatible"
       ]
     },
+    "jev-1.13.0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "jev-latest": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "jev-preview": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "jina-reranker-v2-base-multilingual": {
       "imageInput": false,
       "imageOutput": false,
@@ -21775,6 +21819,17 @@
         "openAICompatible"
       ]
     },
+    "pareto": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "pareto-code": {
       "imageInput": false,
       "imageOutput": false,
@@ -23954,6 +24009,17 @@
       ]
     },
     "qwen3.8-27b": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "qwen3.8-27b:free": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
