@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-18",
-  "generated_at": "2026-09-18T03:23:58+00:00",
+  "version": "2026-09-19",
+  "generated_at": "2026-09-19T03:20:21+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -419,6 +419,17 @@
       "webSearch": false,
       "providers": [
         "openAICompatible"
+      ]
+    },
+    "FLUX.2-flex": {
+      "imageInput": false,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
       ]
     },
     "FW-DeepSeek-V3.2": {
@@ -2877,6 +2888,17 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "StartTranscriptionJob": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -6627,10 +6649,10 @@
       ]
     },
     "databricks-gemini-2-5-flash": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -6638,10 +6660,10 @@
       ]
     },
     "databricks-gemini-2-5-pro": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -6660,7 +6682,7 @@
       ]
     },
     "databricks-gemini-3-1-flash-lite": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": false,
@@ -6671,10 +6693,10 @@
       ]
     },
     "databricks-gemini-3-1-pro": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -6737,7 +6759,7 @@
       ]
     },
     "databricks-gemini-3-flash": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": false,
@@ -8086,6 +8108,17 @@
         "openAICompatible"
       ]
     },
+    "detect_entities": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "dev": {
       "imageInput": false,
       "imageOutput": true,
@@ -8189,6 +8222,17 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "diarize": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -10036,7 +10080,7 @@
     "gemini-3-pro": {
       "imageInput": true,
       "imageOutput": false,
-      "tool": true,
+      "tool": false,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -11115,7 +11159,7 @@
       ]
     },
     "glm-4.7": {
-      "imageInput": true,
+      "imageInput": false,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -11126,7 +11170,7 @@
       ]
     },
     "glm-4.7-flash": {
-      "imageInput": true,
+      "imageInput": false,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -11315,7 +11359,7 @@
     "glm-5.2:free": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": true,
+      "tool": false,
       "reasoning": true,
       "embedding": false,
       "webSearch": false,
@@ -11346,6 +11390,17 @@
       ]
     },
     "glm-5.3-flash:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "glm-5.3-flashx": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -11712,7 +11767,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -11734,7 +11789,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -15053,6 +15108,28 @@
         "openAICompatible"
       ]
     },
+    "grok-voice-transcribe-1.0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "grok-voice-transcribe-2.0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "gte-base": {
       "imageInput": false,
       "imageOutput": false,
@@ -15842,6 +15919,17 @@
       ]
     },
     "kat-dev-72b-exp": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "keyterm": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -18509,7 +18597,7 @@
       ]
     },
     "minimax-m2.1": {
-      "imageInput": true,
+      "imageInput": false,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -20863,6 +20951,17 @@
       ]
     },
     "nova-3-medical": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "nova-3-multilingual": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -24063,6 +24162,17 @@
         "openAICompatible"
       ]
     },
+    "qwen3.8-omni-flash": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "qwen3p7-plus": {
       "imageInput": true,
       "imageOutput": false,
@@ -24132,6 +24242,17 @@
     "recraftv3": {
       "imageInput": false,
       "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "redact": {
+      "imageInput": false,
+      "imageOutput": false,
       "tool": false,
       "reasoning": false,
       "embedding": false,
@@ -25564,6 +25685,17 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "ternary-bonsai-2-27b": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
