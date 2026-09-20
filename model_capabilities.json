@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-19",
-  "generated_at": "2026-09-19T03:20:21+00:00",
+  "version": "2026-09-20",
+  "generated_at": "2026-09-20T03:37:26+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -4396,7 +4396,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -4616,7 +4616,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -4627,7 +4627,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -4638,7 +4638,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -4660,7 +4660,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -4704,7 +4704,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -4715,7 +4715,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -4726,7 +4726,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -4770,7 +4770,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -4957,7 +4957,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -4968,7 +4968,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -4979,7 +4979,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -4990,7 +4990,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5001,7 +5001,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5023,7 +5023,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5034,7 +5034,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5045,7 +5045,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5056,7 +5056,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5067,7 +5067,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5111,7 +5111,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5133,7 +5133,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5144,7 +5144,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5232,7 +5232,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5243,7 +5243,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5254,7 +5254,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5265,7 +5265,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5298,7 +5298,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5320,7 +5320,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -9852,7 +9852,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -9896,7 +9896,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -9973,7 +9973,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -9995,7 +9995,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -10028,7 +10028,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -10072,7 +10072,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -10160,7 +10160,7 @@
       "tool": false,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -10182,7 +10182,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -10248,7 +10248,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -10281,7 +10281,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -10292,7 +10292,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -10369,7 +10369,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -10391,7 +10391,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -10413,7 +10413,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -11945,7 +11945,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -12165,7 +12165,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -12220,7 +12220,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -12231,7 +12231,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -12253,7 +12253,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -12264,7 +12264,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -12693,7 +12693,7 @@
       "tool": false,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -12704,7 +12704,7 @@
       "tool": false,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -12737,7 +12737,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -12770,7 +12770,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -12803,7 +12803,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -12946,7 +12946,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -12979,7 +12979,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13045,7 +13045,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13056,7 +13056,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13155,7 +13155,7 @@
       "tool": false,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13199,7 +13199,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13232,7 +13232,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13265,7 +13265,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13276,7 +13276,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13353,7 +13353,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13364,7 +13364,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13419,7 +13419,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13430,7 +13430,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13441,7 +13441,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13485,7 +13485,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13496,7 +13496,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13507,7 +13507,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13540,7 +13540,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13551,7 +13551,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13562,7 +13562,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13573,7 +13573,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13606,7 +13606,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13617,7 +13617,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13628,7 +13628,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13639,7 +13639,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13892,7 +13892,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -13903,7 +13903,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -14200,7 +14200,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -14211,7 +14211,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -14881,7 +14881,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -14926,7 +14926,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -15103,7 +15103,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -21154,7 +21154,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -21220,7 +21220,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -21286,7 +21286,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -21308,7 +21308,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -21319,7 +21319,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -21352,7 +21352,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -21407,7 +21407,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
@@ -21418,7 +21418,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openai"
       ]
