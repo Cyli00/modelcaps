@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-20",
-  "generated_at": "2026-09-20T03:37:26+00:00",
+  "version": "2026-09-21",
+  "generated_at": "2026-09-21T03:32:13+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -15361,6 +15361,17 @@
         "openAICompatible"
       ]
     },
+    "image-to-video": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "imagegeneration@006": {
       "imageInput": false,
       "imageOutput": true,
@@ -24261,6 +24272,17 @@
         "openAICompatible"
       ]
     },
+    "reference-to-video": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "reka-core": {
       "imageInput": false,
       "imageOutput": false,
@@ -25895,6 +25917,17 @@
     "text-to-image": {
       "imageInput": false,
       "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "text-to-video": {
+      "imageInput": false,
+      "imageOutput": false,
       "tool": false,
       "reasoning": false,
       "embedding": false,
