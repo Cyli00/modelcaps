@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-24",
-  "generated_at": "2026-09-24T03:21:46+00:00",
+  "version": "2026-09-25",
+  "generated_at": "2026-09-25T03:39:01+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -73,6 +73,17 @@
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "Cohere-command-a-plus-05-2026": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -432,7 +443,29 @@
         "openai"
       ]
     },
+    "FW-DeepSeek-V4-Flash": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "FW-DeepSeek-V4-Pro": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-DeepSeek-V4.1-Flash": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -477,6 +510,39 @@
       ]
     },
     "FW-GLM-5.2-Fast": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-GLM-5.3": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-GLM-5.3-Flash": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "FW-GPT-OSS-120B": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -1338,6 +1404,28 @@
       ]
     },
     "MAI-Image-2.5-Pro": {
+      "imageInput": false,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "MAI-Image-2.6": {
+      "imageInput": false,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "MAI-Image-2.6-Flash": {
       "imageInput": false,
       "imageOutput": true,
       "tool": false,
@@ -4233,6 +4321,17 @@
       ]
     },
     "chirp": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "chirp_2": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -7757,7 +7856,8 @@
       "embedding": false,
       "webSearch": false,
       "providers": [
-        "openAICompatible"
+        "openAICompatible",
+        "openai"
       ]
     },
     "deepseek-v4.1-flash:batch": {
@@ -7772,6 +7872,17 @@
       ]
     },
     "deepseek-v4p1-flash": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "deepseek-v4p1-flash-us": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -10048,6 +10159,17 @@
         "gemini"
       ]
     },
+    "gemini-3.8-flash-cyber": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
     "gemini-3.8-flash-lite-tts": {
       "imageInput": false,
       "imageOutput": false,
@@ -11162,6 +11284,28 @@
         "openAICompatible"
       ]
     },
+    "glm-5p3-flash-us": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "glm-5p3-us": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "glm-5v-turbo": {
       "imageInput": true,
       "imageOutput": false,
@@ -11372,6 +11516,28 @@
       ]
     },
     "global.moonshotai.kimi-k3": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "global.openai.gpt-5.4": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "global.openai.gpt-5.5": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -12438,6 +12604,17 @@
         "openai"
       ]
     },
+    "gpt-5.1-chat": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-5.1-chat-latest": {
       "imageInput": true,
       "imageOutput": false,
@@ -12610,6 +12787,17 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-5.3-chat": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -18845,7 +19033,8 @@
       "embedding": false,
       "webSearch": false,
       "providers": [
-        "openAICompatible"
+        "openAICompatible",
+        "openai"
       ]
     },
     "mistral-medium-3-5:batch": {
@@ -19795,7 +19984,8 @@
       "embedding": false,
       "webSearch": true,
       "providers": [
-        "openAICompatible"
+        "openAICompatible",
+        "openai"
       ]
     },
     "muse-spark-1.3-contributor": {
@@ -19843,6 +20033,17 @@
       ]
     },
     "nano-banana": {
+      "imageInput": false,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "nano-banana-2": {
       "imageInput": false,
       "imageOutput": true,
       "tool": false,
@@ -20606,6 +20807,17 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "o1-preview": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -26116,6 +26328,28 @@
       ]
     },
     "us.moonshotai.kimi-k3": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us.openai.gpt-5.4": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us.openai.gpt-5.5": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
