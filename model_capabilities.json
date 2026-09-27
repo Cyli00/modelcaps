@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-26",
-  "generated_at": "2026-09-26T03:45:17+00:00",
+  "version": "2026-09-27",
+  "generated_at": "2026-09-27T03:54:18+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -817,6 +817,17 @@
         "openAICompatible"
       ]
     },
+    "Gemma-4-31B-IT-NVFP4": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "Gemma-SEA-LION-v4-27B-IT": {
       "imageInput": false,
       "imageOutput": false,
@@ -1370,6 +1381,17 @@
         "openAICompatible"
       ]
     },
+    "Llama-Rank-V1": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "MAI-DS-R1": {
       "imageInput": false,
       "imageOutput": false,
@@ -1519,6 +1541,17 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Meta-Llama-3.1-8B": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -6501,6 +6534,17 @@
         "openAICompatible"
       ]
     },
+    "databricks-claude-opus-5-5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "databricks-claude-sonnet-4": {
       "imageInput": false,
       "imageOutput": false,
@@ -10542,6 +10586,17 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "gemma-4-12B-it": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
