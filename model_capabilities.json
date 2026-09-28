@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-27",
-  "generated_at": "2026-09-27T03:54:18+00:00",
+  "version": "2026-09-28",
+  "generated_at": "2026-09-28T03:53:59+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -1390,6 +1390,17 @@
       "webSearch": false,
       "providers": [
         "openAICompatible"
+      ]
+    },
+    "MAI-Cyber-1-Flash": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
       ]
     },
     "MAI-DS-R1": {
