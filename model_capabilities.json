@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-09-29",
-  "generated_at": "2026-09-29T04:28:49+00:00",
+  "version": "2026-09-30",
+  "generated_at": "2026-09-30T04:11:48+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -345,6 +345,17 @@
       ]
     },
     "DeepSeek-V4.1-Flash": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "DeepSeek-V4.1-Flash-Fast": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -5415,7 +5426,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -10617,7 +10628,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": true,
       "providers": [
@@ -11826,6 +11837,17 @@
         "openAICompatible"
       ]
     },
+    "global.openai.gpt-6.1-sol": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "global.twelvelabs.pegasus-1-2-v1:0": {
       "imageInput": false,
       "imageOutput": false,
@@ -12509,6 +12531,17 @@
       ]
     },
     "gpt-4o-mini-tts": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-4o-mini-tts-2025-03-20": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -13686,6 +13719,61 @@
       ]
     },
     "gpt-6-sol:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-6.1-sol": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-6.1-sol-2026-09-29": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-6.1-sol-pro": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-6.1-sol-pro:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-6.1-sol:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -21556,6 +21644,17 @@
         "openAICompatible"
       ]
     },
+    "openai.gpt-6.1-sol": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "openai.gpt-daybreak-blue-5.6-sol": {
       "imageInput": true,
       "imageOutput": false,
@@ -26796,6 +26895,17 @@
       ]
     },
     "us.openai.gpt-6-sol": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us.openai.gpt-6.1-sol": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
