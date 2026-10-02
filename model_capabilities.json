@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-10-01",
-  "generated_at": "2026-10-01T04:23:38+00:00",
+  "version": "2026-10-02",
+  "generated_at": "2026-10-02T04:16:25+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -3951,6 +3951,17 @@
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "apodex-1.1-mini:free": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -9869,7 +9880,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": true,
       "providers": [
@@ -10144,7 +10155,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": true,
       "providers": [
@@ -10408,7 +10419,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": true,
       "providers": [
@@ -21864,6 +21875,17 @@
         "openAICompatible"
       ]
     },
+    "pareto-26.10-preview": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "pareto-code": {
       "imageInput": false,
       "imageOutput": false,
@@ -24361,6 +24383,17 @@
         "openAICompatible"
       ]
     },
+    "rerank-1": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "rerank-2": {
       "imageInput": false,
       "imageOutput": false,
@@ -24428,6 +24461,17 @@
       ]
     },
     "rerank-english-v3.0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "rerank-lite-1": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -27493,6 +27537,17 @@
       ]
     },
     "voyage-large-2": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "voyage-large-2-instruct": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
