@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-10-03",
-  "generated_at": "2026-10-03T03:58:48+00:00",
+  "version": "2026-10-04",
+  "generated_at": "2026-10-04T04:31:51+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -5486,6 +5486,28 @@
         "anthropic"
       ]
     },
+    "clef": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "clef-flash": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "cobuddy": {
       "imageInput": false,
       "imageOutput": false,
@@ -8601,6 +8623,28 @@
       ]
     },
     "embed-v4.0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "embed-v5.0-fast": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "embed-v5.0-pro": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -15355,6 +15399,17 @@
         "openAICompatible"
       ]
     },
+    "grok-imagine-video-1.5-lite": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "grok-imagine-video-1.5-preview": {
       "imageInput": false,
       "imageOutput": false,
@@ -16222,7 +16277,8 @@
       "embedding": false,
       "webSearch": true,
       "providers": [
-        "openAICompatible"
+        "openAICompatible",
+        "openai"
       ]
     },
     "kimi-k2-thinking-251104": {
@@ -22205,6 +22261,17 @@
         "openAICompatible"
       ]
     },
+    "pplx-decider-v1-27b": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "pplx-embed-context-v1-0.6b": {
       "imageInput": false,
       "imageOutput": false,
@@ -25708,6 +25775,17 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "strands-decider-2B-hobson-v19": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
