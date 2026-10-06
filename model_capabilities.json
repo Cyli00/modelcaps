@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-10-05",
-  "generated_at": "2026-10-05T04:17:35+00:00",
+  "version": "2026-10-06",
+  "generated_at": "2026-10-06T05:05:34+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -3188,6 +3188,17 @@
       ]
     },
     "allam-1-13b-instruct": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "amazon.nova-2-5-sonic": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -11949,6 +11960,17 @@
     },
     "global.xai.grok-4.7": {
       "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "global.zai.glm-5.3": {
+      "imageInput": false,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -27194,6 +27216,17 @@
     },
     "us.xai.grok-4.7": {
       "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us.zai.glm-5.3": {
+      "imageInput": false,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
