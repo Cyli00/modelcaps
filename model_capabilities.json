@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-10-07",
-  "generated_at": "2026-10-07T04:32:34+00:00",
+  "version": "2026-10-08",
+  "generated_at": "2026-10-08T04:43:48+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -3583,6 +3583,17 @@
         "openAICompatible"
       ]
     },
+    "anthropic.claude-haiku-5-5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "anthropic.claude-instant-v1": {
       "imageInput": false,
       "imageOutput": false,
@@ -3858,6 +3869,17 @@
         "openAICompatible"
       ]
     },
+    "apac.anthropic.claude-haiku-5-5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "apac.anthropic.claude-mythos-preview": {
       "imageInput": true,
       "imageOutput": false,
@@ -4002,6 +4024,17 @@
       ]
     },
     "au.anthropic.claude-haiku-4-5-20251001-v1:0": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "au.anthropic.claude-haiku-5-5": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -4855,6 +4888,50 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-haiku-5-5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-haiku-5-5@default": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-haiku-5.5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-haiku-5.5:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -8974,6 +9051,17 @@
         "openAICompatible"
       ]
     },
+    "eu.anthropic.claude-haiku-5-5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "eu.anthropic.claude-opus-4-1-20250805-v1:0": {
       "imageInput": true,
       "imageOutput": false,
@@ -11662,6 +11750,17 @@
       ]
     },
     "global.anthropic.claude-haiku-4-5-20251001-v1:0": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "global.anthropic.claude-haiku-5-5": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -15730,6 +15829,17 @@
         "openAICompatible"
       ]
     },
+    "in.moonshotai.kimi-k3": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "inkling": {
       "imageInput": true,
       "imageOutput": false,
@@ -16073,6 +16183,17 @@
       ]
     },
     "jp.anthropic.claude-haiku-4-5-20251001-v1:0": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "jp.anthropic.claude-haiku-5-5": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -26379,6 +26500,17 @@
         "openAICompatible"
       ]
     },
+    "us-gov.anthropic.claude-haiku-5-5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "us-gov.anthropic.claude-opus-4-8": {
       "imageInput": true,
       "imageOutput": false,
@@ -26666,6 +26798,17 @@
       ]
     },
     "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us.anthropic.claude-haiku-5-5": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
