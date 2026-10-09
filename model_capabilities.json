@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-10-08",
-  "generated_at": "2026-10-08T04:43:48+00:00",
+  "version": "2026-10-09",
+  "generated_at": "2026-10-09T04:46:25+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -4766,7 +4766,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -4854,7 +4854,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -4931,7 +4931,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5008,7 +5008,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -5272,7 +5272,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "anthropic"
       ]
@@ -12035,6 +12035,17 @@
         "openAICompatible"
       ]
     },
+    "global.twelvelabs.pegasus-1-5-v1:0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "global.xai.grok-4.6": {
       "imageInput": true,
       "imageOutput": false,
@@ -16803,6 +16814,17 @@
       ]
     },
     "ling-3.0-flash-fin:free": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "ling-3.0-flash-sante": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -25936,6 +25958,17 @@
         "openAICompatible"
       ]
     },
+    "step-5-preview": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "strands-decider-2B-hobson-v19": {
       "imageInput": false,
       "imageOutput": false,
@@ -27292,6 +27325,17 @@
         "openAICompatible"
       ]
     },
+    "us.twelvelabs.pegasus-1-5-v1:0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "us.writer.palmyra-x4-v1:0": {
       "imageInput": false,
       "imageOutput": false,
@@ -28200,17 +28244,6 @@
       ]
     },
     "xai.grok-4.6": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "xai.grok-4.7": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
