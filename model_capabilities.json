@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-10-09",
-  "generated_at": "2026-10-09T04:46:25+00:00",
+  "version": "2026-10-10",
+  "generated_at": "2026-10-10T04:31:59+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -1667,6 +1667,17 @@
       "webSearch": false,
       "providers": [
         "openAICompatible"
+      ]
+    },
+    "Microsoft-Decision-1": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
       ]
     },
     "MiniCPM-V-4_5": {
@@ -4441,6 +4452,17 @@
         "openAICompatible"
       ]
     },
+    "chat": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "chat-latest": {
       "imageInput": true,
       "imageOutput": false,
@@ -4612,7 +4634,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -4698,7 +4720,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": true,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -4788,7 +4810,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -4799,7 +4821,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -4810,7 +4832,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -4832,7 +4854,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -4876,7 +4898,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -4887,7 +4909,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -4920,7 +4942,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -4931,7 +4953,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -4942,7 +4964,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5129,7 +5151,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5140,7 +5162,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5151,7 +5173,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5162,7 +5184,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5172,17 +5194,6 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
-      "embedding": false,
-      "webSearch": true,
-      "providers": [
-        "anthropic"
-      ]
-    },
-    "claude-opus-4.6-fast": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -5195,7 +5206,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5206,7 +5217,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5217,7 +5228,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5228,7 +5239,18 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-opus-4.8-fast": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5238,17 +5260,6 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
-      "embedding": false,
-      "webSearch": true,
-      "providers": [
-        "anthropic"
-      ]
-    },
-    "claude-opus-41": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -5294,7 +5305,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5305,7 +5316,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5316,7 +5327,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5338,7 +5349,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5349,7 +5360,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5426,7 +5437,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5437,7 +5448,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5448,7 +5459,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5459,7 +5470,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5503,7 +5514,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5514,7 +5525,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5525,7 +5536,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -5547,7 +5558,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "anthropic"
       ]
@@ -7282,6 +7293,17 @@
         "openAICompatible"
       ]
     },
+    "databricks-openjev-qwen35-4b": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "databricks-qwen3-embedding-0-6b": {
       "imageInput": false,
       "imageOutput": false,
@@ -8134,8 +8156,8 @@
       "embedding": false,
       "webSearch": false,
       "providers": [
-        "openAICompatible",
-        "openai"
+        "openai",
+        "openAICompatible"
       ]
     },
     "deepseek-v4.1-flash:batch": {
@@ -9948,7 +9970,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -9981,7 +10003,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -10069,7 +10091,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -10086,17 +10108,6 @@
       ]
     },
     "gemini-2.5-pro-preview": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": true,
-      "providers": [
-        "gemini"
-      ]
-    },
-    "gemini-2.5-pro-preview-05-06": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -10135,7 +10146,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -10179,7 +10190,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -10267,7 +10278,7 @@
       "tool": false,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -10289,7 +10300,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -10355,7 +10366,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -10388,7 +10399,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -10399,7 +10410,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -10476,7 +10487,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -10498,7 +10509,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -10553,7 +10564,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "gemini"
       ]
@@ -11276,17 +11287,6 @@
         "openAICompatible"
       ]
     },
-    "glm-4.6:exacto": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "glm-4.6v": {
       "imageInput": true,
       "imageOutput": false,
@@ -11489,17 +11489,6 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "glm-5.2:free": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": false,
       "reasoning": true,
       "embedding": false,
       "webSearch": false,
@@ -12261,7 +12250,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -12420,17 +12409,6 @@
         "openai"
       ]
     },
-    "gpt-4-turbo-preview": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-4-turbo-vision-preview": {
       "imageInput": true,
       "imageOutput": false,
@@ -12448,7 +12426,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -12503,7 +12481,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -12514,7 +12492,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -12536,7 +12514,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -12547,7 +12525,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -12899,7 +12877,7 @@
       "tool": false,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -12910,7 +12888,7 @@
       "tool": false,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -12943,7 +12921,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -12976,7 +12954,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13009,7 +12987,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13119,7 +13097,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13141,7 +13119,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13174,7 +13152,7 @@
       "tool": true,
       "reasoning": false,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13229,7 +13207,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13240,7 +13218,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13339,7 +13317,7 @@
       "tool": false,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13383,7 +13361,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13416,7 +13394,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13449,7 +13427,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13460,7 +13438,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13537,7 +13515,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13548,7 +13526,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13603,7 +13581,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13614,7 +13592,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13625,7 +13603,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13669,7 +13647,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13680,7 +13658,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13691,7 +13669,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13724,7 +13702,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13735,7 +13713,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13746,7 +13724,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13757,7 +13735,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13790,7 +13768,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13801,7 +13779,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13812,7 +13790,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13845,7 +13823,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13856,7 +13834,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13867,7 +13845,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13900,7 +13878,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13911,7 +13889,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13922,7 +13900,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13955,7 +13933,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13966,7 +13944,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13977,7 +13955,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -13988,7 +13966,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -14241,7 +14219,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -14252,7 +14230,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -14543,6 +14521,17 @@
         "openai"
       ]
     },
+    "gpt-rosalind-discovery": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-rosalind-research": {
       "imageInput": false,
       "imageOutput": false,
@@ -14560,7 +14549,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -14571,7 +14560,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -14824,7 +14813,7 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
-      "reasoning": true,
+      "reasoning": false,
       "embedding": false,
       "webSearch": true,
       "providers": [
@@ -15304,7 +15293,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openAICompatible"
       ]
@@ -15361,7 +15350,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openAICompatible"
       ]
@@ -15549,7 +15538,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openAICompatible"
       ]
@@ -16127,17 +16116,6 @@
         "openAICompatible"
       ]
     },
-    "jev-1.13": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "jev-1.13.0": {
       "imageInput": false,
       "imageOutput": false,
@@ -16315,17 +16293,6 @@
       ]
     },
     "kat-coder-pro": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "kat-coder-pro-v2.5": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -16640,7 +16607,7 @@
     "l3.1-euryale-70b": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": true,
+      "tool": false,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -16813,17 +16780,6 @@
         "openAICompatible"
       ]
     },
-    "ling-3.0-flash-fin:free": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "ling-3.0-flash-sante": {
       "imageInput": false,
       "imageOutput": false,
@@ -16835,29 +16791,7 @@
         "openAICompatible"
       ]
     },
-    "ling-3.0-flash-sante:free": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "ling-3.0-flash-vl": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "ling-3.0-flash-vl:free": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -18333,19 +18267,8 @@
         "openAICompatible"
       ]
     },
-    "mai-code-1-flash": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "mai-code-1-flash-internal": {
-      "imageInput": false,
+    "mai-code-1.1-flash": {
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": false,
@@ -18971,17 +18894,6 @@
         "openAICompatible"
       ]
     },
-    "minimax-m2.7:free": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "minimax-m2p1": {
       "imageInput": false,
       "imageOutput": false,
@@ -19005,17 +18917,6 @@
       ]
     },
     "minimax-m3": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "minimax-m3:free": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -20920,29 +20821,7 @@
         "openAICompatible"
       ]
     },
-    "nex-n2.5-mini:free": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "nex-n2.5-pro": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "nex-n2.5-pro:free": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -21454,7 +21333,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -21509,7 +21388,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -21564,7 +21443,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -21586,7 +21465,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -21597,7 +21476,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -21630,7 +21509,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -21674,7 +21553,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -21685,7 +21564,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": true,
+      "webSearch": false,
       "providers": [
         "openai"
       ]
@@ -22922,17 +22801,6 @@
         "openAICompatible"
       ]
     },
-    "qwen-vl-plus": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "qwen.qwen3-235b-a22b-2507": {
       "imageInput": false,
       "imageOutput": false,
@@ -23574,8 +23442,8 @@
     "qwen3-235b-a22b": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
+      "tool": false,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -23673,8 +23541,8 @@
     "qwen3-30b-a3b-thinking-2507": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
+      "tool": false,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -23967,17 +23835,6 @@
         "openAICompatible"
       ]
     },
-    "qwen3-max-thinking": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "qwen3-next-80b-a3b-instruct": {
       "imageInput": false,
       "imageOutput": false,
@@ -24159,17 +24016,6 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "qwen3-vl-8b-thinking": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -24419,17 +24265,6 @@
       ]
     },
     "qwen3.8-27b": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "qwen3.8-27b:free": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -24837,17 +24672,6 @@
       ]
     },
     "rolm-ocr": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "router": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -25516,17 +25340,6 @@
       "webSearch": false,
       "providers": [
         "openai"
-      ]
-    },
-    "space-bunny-alpha": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
       ]
     },
     "speech-02-hd": {
@@ -26468,6 +26281,17 @@
       ]
     },
     "twelvelabs.pegasus-1-2-v1:0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "twelvelabs.pegasus-1-5-v1:0": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
