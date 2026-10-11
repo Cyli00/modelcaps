@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-10-10",
-  "generated_at": "2026-10-10T04:31:59+00:00",
+  "version": "2026-10-11",
+  "generated_at": "2026-10-11T04:15:40+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -85,6 +85,28 @@
       "tool": false,
       "reasoning": false,
       "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "Cohere-Embed-V5-Fast": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "Cohere-Embed-V5-Pro": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": true,
       "webSearch": false,
       "providers": [
         "openai"
@@ -3297,6 +3319,17 @@
         "openAICompatible"
       ]
     },
+    "amazon.nova-premier-v1:0": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "amazon.nova-pro-v1:0": {
       "imageInput": true,
       "imageOutput": false,
@@ -4530,6 +4563,17 @@
       ]
     },
     "chronos-hermes-13b-v2": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "classify": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -6565,6 +6609,17 @@
         "openAICompatible"
       ]
     },
+    "compress": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "computer-use-preview": {
       "imageInput": true,
       "imageOutput": false,
@@ -7371,6 +7426,17 @@
       ]
     },
     "dbrx-instruct": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "decisions": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -9294,6 +9360,17 @@
       ]
     },
     "eu.twelvelabs.pegasus-1-2-v1:0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "extract": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -25838,6 +25915,17 @@
       ]
     },
     "style-transfer": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "summarize": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
