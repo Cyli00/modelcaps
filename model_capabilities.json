@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-10-12",
-  "generated_at": "2026-10-12T04:32:55+00:00",
+  "version": "2026-10-13",
+  "generated_at": "2026-10-13T05:39:19+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -5640,6 +5640,17 @@
         "openAICompatible"
       ]
     },
+    "clef-omni": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "cobuddy": {
       "imageInput": false,
       "imageOutput": false,
@@ -6632,6 +6643,17 @@
       ]
     },
     "computer-use-preview": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "computer-use-preview-2025-03-11": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -8233,7 +8255,29 @@
       "embedding": false,
       "webSearch": false,
       "providers": [
-        "openai",
+        "openAICompatible",
+        "openai"
+      ]
+    },
+    "deepseek-v4.1-flash-fast": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "deepseek-v4.1-flash-fast-fp4": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
         "openAICompatible"
       ]
     },
@@ -11595,6 +11639,17 @@
         "openAICompatible"
       ]
     },
+    "glm-5.3-fast": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "glm-5.3-flash": {
       "imageInput": true,
       "imageOutput": false,
@@ -11619,6 +11674,17 @@
     },
     "glm-5.3-flashx": {
       "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "glm-5.3-fp4": {
+      "imageInput": false,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -12761,6 +12827,17 @@
         "openai"
       ]
     },
+    "gpt-4o-mini-search-preview-2025-03-11": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-4o-mini-transcribe": {
       "imageInput": false,
       "imageOutput": false,
@@ -12861,6 +12938,17 @@
       ]
     },
     "gpt-4o-search-preview": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-4o-search-preview-2025-03-11": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -20656,6 +20744,28 @@
         "openAICompatible"
       ]
     },
+    "muse-wonder": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "muse-wonder-1.0": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "mythomax-l2-13b": {
       "imageInput": false,
       "imageOutput": false,
@@ -21525,6 +21635,17 @@
         "openai"
       ]
     },
+    "o3-deep-research-2025-06-26": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "o3-mini": {
       "imageInput": false,
       "imageOutput": false,
@@ -21625,6 +21746,17 @@
       ]
     },
     "o4-mini-deep-research": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "o4-mini-deep-research-2025-06-26": {
       "imageInput": true,
       "imageOutput": false,
       "tool": false,
@@ -22406,6 +22538,17 @@
       ]
     },
     "pplx-decider-v1-27b": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "pplx-decider-v1.1-27b": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -24770,6 +24913,17 @@
         "openAICompatible"
       ]
     },
+    "rune": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "sakana-namazu": {
       "imageInput": true,
       "imageOutput": false,
@@ -25156,6 +25310,94 @@
       ]
     },
     "seedance2_mini": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "semantic-ranker-default": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "semantic-ranker-default-002": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "semantic-ranker-default-003": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "semantic-ranker-default-004": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "semantic-ranker-default@latest": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "semantic-ranker-fast": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "semantic-ranker-fast-004": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "semantic-ranker-fast@latest": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
