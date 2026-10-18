@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-10-17",
-  "generated_at": "2026-10-17T03:10:08+00:00",
+  "version": "2026-10-18",
+  "generated_at": "2026-10-18T03:13:40+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -400,6 +400,17 @@
       ]
     },
     "DeepSeek-V4.1-Flash": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "DeepSeek-V4.1-Flash-1017": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -8369,6 +8380,17 @@
         "openai"
       ]
     },
+    "deepseek-v4.1-flash-1017": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "deepseek-v4.1-flash-fast": {
       "imageInput": true,
       "imageOutput": false,
@@ -11545,6 +11567,17 @@
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "glimpse": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -22713,6 +22746,17 @@
         "openAICompatible"
       ]
     },
+    "pareto-26.10": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "pareto-26.9": {
       "imageInput": true,
       "imageOutput": false,
@@ -22988,6 +23032,39 @@
         "openAICompatible"
       ]
     },
+    "pplx-decider-flash-latest": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "pplx-decider-flash-v1.2": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "pplx-decider-latest": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "pplx-decider-v1-27b": {
       "imageInput": false,
       "imageOutput": false,
@@ -23000,6 +23077,17 @@
       ]
     },
     "pplx-decider-v1.1-27b": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "pplx-decider-v1.2": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -26707,6 +26795,28 @@
       ]
     },
     "switchyard": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "system.ai.deepseek-v4-flash-0731": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "system.ai.kimi-k3": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
