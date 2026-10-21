@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-10-20",
-  "generated_at": "2026-10-20T03:36:08+00:00",
+  "version": "2026-10-21",
+  "generated_at": "2026-10-21T03:29:08+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -50,7 +50,7 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -4705,6 +4705,17 @@
         "openAICompatible"
       ]
     },
+    "clairic": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "classify": {
       "imageInput": false,
       "imageOutput": false,
@@ -8468,6 +8479,17 @@
         "openAICompatible"
       ]
     },
+    "deepseek-v4p1-flash-1017-us": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "deepseek-v4p1-flash-us": {
       "imageInput": true,
       "imageOutput": false,
@@ -8864,7 +8886,29 @@
         "openAICompatible"
       ]
     },
+    "doubao-seed-2-1-lite-260915": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "doubao-seed-2-1-pro-260628": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "doubao-seed-2-1-pro-260915": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -10470,17 +10514,6 @@
         "gemini"
       ]
     },
-    "gemini-2.5-flash:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "gemini"
-      ]
-    },
     "gemini-2.5-pro": {
       "imageInput": true,
       "imageOutput": false,
@@ -10519,17 +10552,6 @@
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "gemini"
-      ]
-    },
-    "gemini-2.5-pro:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
