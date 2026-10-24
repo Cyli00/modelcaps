@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-10-23",
-  "generated_at": "2026-10-23T03:33:31+00:00",
+  "version": "2026-10-24",
+  "generated_at": "2026-10-24T03:27:46+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -1883,6 +1883,17 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "MiniMax-M3.1-Flash": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -9062,6 +9073,28 @@
         "openAICompatible"
       ]
     },
+    "eleven_flash_v2": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "eleven_flash_v2_5": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "eleven_multilingual_v2": {
       "imageInput": false,
       "imageOutput": false,
@@ -9073,7 +9106,62 @@
         "openAICompatible"
       ]
     },
+    "eleven_turbo_v2": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "eleven_turbo_v2_5": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "eleven_v3": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "eleven_v3_conversational": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "eleven_v4": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "eleven_v4_turbo": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -17188,6 +17276,17 @@
       ]
     },
     "kimi-k3-us": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "kimi-k3.1-pro": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -28649,7 +28748,51 @@
         "openAICompatible"
       ]
     },
+    "voxtral-mini-transcribe-3": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "voxtral-mini-transcribe-3-0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "voxtral-mini-transcribe-realtime-2602": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "voxtral-mini-transcribe-realtime-3": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "voxtral-mini-transcribe-realtime-3-0": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -28672,6 +28815,28 @@
       ]
     },
     "voxtral-mini-tts-2603": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "voxtral-mini-tts-3": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "voxtral-mini-tts-3-0": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -28719,6 +28884,28 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "voxtral-small-transcribe-3": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "voxtral-small-transcribe-3-0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
