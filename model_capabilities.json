@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-10-24",
-  "generated_at": "2026-10-24T03:27:46+00:00",
+  "version": "2026-10-25",
+  "generated_at": "2026-10-25T03:23:35+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -4530,6 +4530,17 @@
       ]
     },
     "beam-1.0-501b-a23b": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "beam-free": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -12816,17 +12827,6 @@
         "openai"
       ]
     },
-    "gpt-3.5-turbo:batch": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openai"
-      ]
-    },
     "gpt-35-turbo": {
       "imageInput": false,
       "imageOutput": false,
@@ -17451,6 +17451,17 @@
         "gemini"
       ]
     },
+    "lfm-2.5-2.6b": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "lfm-2.5-2.6b:free": {
       "imageInput": false,
       "imageOutput": false,
@@ -17751,7 +17762,7 @@
     "llama-3.1-70b": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": false,
+      "tool": true,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -18850,6 +18861,17 @@
     },
     "longcat-2.0": {
       "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "longcat-2.5-preview-free": {
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -29642,6 +29664,17 @@
     },
     "zai-glm-5-3": {
       "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "zai-glm-5-3-flash": {
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
