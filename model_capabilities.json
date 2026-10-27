@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-10-26",
-  "generated_at": "2026-10-26T03:25:48+00:00",
+  "version": "2026-10-27",
+  "generated_at": "2026-10-27T03:52:46+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -3165,6 +3165,50 @@
         "openAICompatible"
       ]
     },
+    "abliterated-model": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "abliterated-model-large": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "abliterated-model-large-flash": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "abliterated-model-large-v2": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "ada": {
       "imageInput": false,
       "imageOutput": false,
@@ -4509,6 +4553,28 @@
     },
     "base-voicemail": {
       "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "baseten-elephant-9b-latest": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "baseten-mammoth-27b-latest": {
+      "imageInput": true,
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
@@ -6125,17 +6191,6 @@
       ]
     },
     "codestral-2508": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "codestral-2508:batch": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -8437,6 +8492,17 @@
     },
     "deepseek-v4.1-flash-1017": {
       "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "deepseek-v4.1-flash-abliterated": {
+      "imageInput": false,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -12068,6 +12134,17 @@
         "openAICompatible"
       ]
     },
+    "glm-5.3-abliterated": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "glm-5.3-fast": {
       "imageInput": false,
       "imageOutput": false,
@@ -12086,6 +12163,17 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "glm-5.3-flash-abliterated": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
       "providers": [
         "openAICompatible"
       ]
@@ -12586,6 +12674,17 @@
       ]
     },
     "global.openai.gpt-6.1-sol": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "global.openai.gpt-6.1-terra": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -14555,6 +14654,50 @@
       ]
     },
     "gpt-6.1-sol:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-6.1-terra": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-6.1-terra-pro": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-6.1-terra-pro:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
+    "gpt-6.1-terra:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -19907,17 +20050,6 @@
         "openAICompatible"
       ]
     },
-    "ministral-8b-2512:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "ministral-8b-latest": {
       "imageInput": true,
       "imageOutput": false,
@@ -20206,17 +20338,6 @@
         "openAICompatible"
       ]
     },
-    "mistral-large-2512:batch": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "mistral-large-3": {
       "imageInput": true,
       "imageOutput": false,
@@ -20398,17 +20519,6 @@
       ]
     },
     "mistral-medium-3.1": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "mistral-medium-3.1:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -20690,17 +20800,6 @@
       ]
     },
     "mistral-small-2603": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "mistral-small-2603:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -27347,17 +27446,6 @@
         "openAICompatible"
       ]
     },
-    "trinity-large-thinking": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "trinity-mini": {
       "imageInput": false,
       "imageOutput": false,
@@ -28261,6 +28349,17 @@
       ]
     },
     "us.openai.gpt-6.1-sol": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us.openai.gpt-6.1-terra": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
