@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-11-02",
-  "generated_at": "2026-11-02T04:39:35+00:00",
+  "version": "2026-11-03",
+  "generated_at": "2026-11-03T05:30:21+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -7975,6 +7975,17 @@
         "openAICompatible"
       ]
     },
+    "decision": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "decisions": {
       "imageInput": false,
       "imageOutput": false,
@@ -12552,6 +12563,17 @@
         "openAICompatible"
       ]
     },
+    "glm-5.3-flashx-legal": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "glm-5.3-fp4": {
       "imageInput": false,
       "imageOutput": false,
@@ -16878,28 +16900,6 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "hermes-3-llama-3.1-405b": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "hermes-3-llama-3.1-70b": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": false,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -23236,7 +23236,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -23280,7 +23280,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -23291,7 +23291,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -23302,7 +23302,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -23313,7 +23313,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -23324,7 +23324,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -23335,7 +23335,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
