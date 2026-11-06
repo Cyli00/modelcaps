@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-11-05",
-  "generated_at": "2026-11-05T05:20:25+00:00",
+  "version": "2026-11-06",
+  "generated_at": "2026-11-06T05:20:02+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -1837,6 +1837,28 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "MiMo-V2.6-Flash": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "MiMo-V2.6-Pro": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -4517,6 +4539,17 @@
       ]
     },
     "auto-beta": {
+      "imageInput": true,
+      "imageOutput": true,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "auto-code": {
       "imageInput": true,
       "imageOutput": true,
       "tool": true,
@@ -7896,6 +7929,17 @@
       ]
     },
     "databricks-kimi-k3": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "databricks-kimi-k3-1-pro": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -11896,6 +11940,17 @@
         "gemini"
       ]
     },
+    "gemini-omni-1.2-flash": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
     "gemini-omni-flash-preview": {
       "imageInput": true,
       "imageOutput": false,
@@ -15078,6 +15133,17 @@
         "openai"
       ]
     },
+    "gpt-6-cyber": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-6-luna": {
       "imageInput": true,
       "imageOutput": false,
@@ -17706,7 +17772,29 @@
         "openAICompatible"
       ]
     },
+    "jina-reranker-m0": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "jina-reranker-v2-base-multilingual": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "jina-reranker-v3.5": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -18139,6 +18227,17 @@
         "openAICompatible"
       ]
     },
+    "kimi-k3-1-pro": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "kimi-k3-fast": {
       "imageInput": true,
       "imageOutput": false,
@@ -18383,6 +18482,17 @@
     },
     "ling-3.0-flash-vl": {
       "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "ling-3.0-tiny": {
+      "imageInput": false,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -20462,17 +20572,6 @@
         "openAICompatible"
       ]
     },
-    "minimax-01": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "minimax-m1": {
       "imageInput": false,
       "imageOutput": false,
@@ -20528,17 +20627,6 @@
         "openAICompatible"
       ]
     },
-    "minimax-m2-her": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "minimax-m2-maas": {
       "imageInput": false,
       "imageOutput": false,
@@ -20554,7 +20642,7 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
-      "reasoning": true,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -29540,6 +29628,17 @@
       ]
     },
     "us-gov.xai.grok-4.6": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us-gov.xai.grok-4.7": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
