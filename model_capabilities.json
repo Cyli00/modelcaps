@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-11-07",
-  "generated_at": "2026-11-07T04:49:31+00:00",
+  "version": "2026-11-08",
+  "generated_at": "2026-11-08T04:40:56+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -8992,6 +8992,17 @@
         "openAICompatible"
       ]
     },
+    "deepseek-v4.1-flash-1017:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "deepseek-v4.1-flash-260910": {
       "imageInput": true,
       "imageOutput": false,
@@ -12813,6 +12824,17 @@
       ]
     },
     "glm-5.2-maas": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "glm-5.2:batch": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -18348,6 +18370,17 @@
         "openAICompatible"
       ]
     },
+    "kimi-k3.1-pro-highspeed": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "kimi-k3:batch": {
       "imageInput": true,
       "imageOutput": false,
@@ -20660,6 +20693,17 @@
         "openAICompatible"
       ]
     },
+    "minimax-latest": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "minimax-m1": {
       "imageInput": false,
       "imageOutput": false,
@@ -22452,7 +22496,29 @@
         "openAICompatible"
       ]
     },
+    "morph-v3-fast:batch": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "morph-v3-large": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "morph-v3-large:batch": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -25015,6 +25081,17 @@
         "openAICompatible"
       ]
     },
+    "qwen-flash-latest": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "qwen-image-2.0": {
       "imageInput": false,
       "imageOutput": true,
@@ -25064,6 +25141,17 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "qwen-max-latest": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -27517,6 +27605,17 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "rnj-1-instruct": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
