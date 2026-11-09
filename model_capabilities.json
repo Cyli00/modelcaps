@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-11-08",
-  "generated_at": "2026-11-08T04:40:56+00:00",
+  "version": "2026-11-09",
+  "generated_at": "2026-11-09T04:51:17+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -20202,7 +20202,7 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
-      "reasoning": true,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -20213,18 +20213,7 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "mercury-3": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
