@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-11-09",
-  "generated_at": "2026-11-09T04:51:17+00:00",
+  "version": "2026-11-10",
+  "generated_at": "2026-11-10T06:05:34+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -358,7 +358,7 @@
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
-      "reasoning": true,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -3900,6 +3900,17 @@
         "openAICompatible"
       ]
     },
+    "anthropic.claude-fable-5-2": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "anthropic.claude-haiku-4-5": {
       "imageInput": true,
       "imageOutput": false,
@@ -3956,6 +3967,17 @@
       ]
     },
     "anthropic.claude-mythos-5-1": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "anthropic.claude-mythos-5-2": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -5253,6 +5275,39 @@
         "anthropic"
       ]
     },
+    "claude-fable-5-2": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-fable-5-2-fast": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-fable-5-2@default": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
     "claude-fable-5.1": {
       "imageInput": true,
       "imageOutput": false,
@@ -5265,6 +5320,28 @@
       ]
     },
     "claude-fable-5.1:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-fable-5.2": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "anthropic"
+      ]
+    },
+    "claude-fable-5.2:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -7084,17 +7161,6 @@
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "crouton-alpha": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -10235,6 +10301,17 @@
         "openAICompatible"
       ]
     },
+    "eu.anthropic.claude-fable-5-2": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "eu.anthropic.claude-haiku-4-5-20251001-v1:0": {
       "imageInput": true,
       "imageOutput": false,
@@ -10247,6 +10324,17 @@
       ]
     },
     "eu.anthropic.claude-haiku-5-5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "eu.anthropic.claude-mythos-5-2": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -12438,6 +12526,17 @@
         "openAICompatible"
       ]
     },
+    "glimpse-1.0": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "glm-4-32b-0414": {
       "imageInput": false,
       "imageOutput": false,
@@ -13153,6 +13252,17 @@
         "openAICompatible"
       ]
     },
+    "global.anthropic.claude-fable-5-2": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "global.anthropic.claude-haiku-4-5-20251001-v1:0": {
       "imageInput": true,
       "imageOutput": false,
@@ -13176,6 +13286,17 @@
       ]
     },
     "global.anthropic.claude-mythos-5-1": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "global.anthropic.claude-mythos-5-2": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -17552,6 +17673,17 @@
         "openAICompatible"
       ]
     },
+    "inkling-2-small:free": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "inkling-small": {
       "imageInput": true,
       "imageOutput": false,
@@ -20693,17 +20825,6 @@
         "openAICompatible"
       ]
     },
-    "minimax-m1": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "minimax-m1-80k": {
       "imageInput": false,
       "imageOutput": false,
@@ -22584,6 +22705,17 @@
         "openAICompatible"
       ]
     },
+    "muse-ember": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "muse-glimmer-30b": {
       "imageInput": true,
       "imageOutput": false,
@@ -23025,6 +23157,17 @@
       ]
     },
     "nex-n2.5-pro": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "nex-n2.6": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -27204,6 +27347,17 @@
         "openAICompatible"
       ]
     },
+    "qwen3.8-max-0902:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "qwen3.8-max-prime": {
       "imageInput": true,
       "imageOutput": false,
@@ -29693,7 +29847,29 @@
         "openAICompatible"
       ]
     },
+    "us-gov.anthropic.claude-fable-5-2": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "us-gov.anthropic.claude-haiku-5-5": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us-gov.anthropic.claude-mythos-5-2": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -30001,6 +30177,17 @@
         "openAICompatible"
       ]
     },
+    "us.anthropic.claude-fable-5-2": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
       "imageInput": true,
       "imageOutput": false,
@@ -30035,6 +30222,17 @@
       ]
     },
     "us.anthropic.claude-mythos-5-1": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us.anthropic.claude-mythos-5-2": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
