@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-11-11",
-  "generated_at": "2026-11-11T04:53:14+00:00",
+  "version": "2026-11-12",
+  "generated_at": "2026-11-12T05:55:01+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -5275,6 +5275,17 @@
         "openAICompatible"
       ]
     },
+    "bria_fibo_edit_1_5": {
+      "imageInput": false,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "broccoli-haircut": {
       "imageInput": true,
       "imageOutput": true,
@@ -8302,6 +8313,17 @@
         "openAICompatible"
       ]
     },
+    "databricks-gemini-4-carbon": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "databricks-gemma-3-12b": {
       "imageInput": false,
       "imageOutput": false,
@@ -10984,8 +11006,8 @@
       ]
     },
     "erase": {
-      "imageInput": false,
-      "imageOutput": false,
+      "imageInput": true,
+      "imageOutput": true,
       "tool": false,
       "reasoning": false,
       "embedding": false,
@@ -11115,7 +11137,7 @@
         "openAICompatible"
       ]
     },
-    "ernie-5.5-flash-preview": {
+    "ernie-5.5-flash-preview:free": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -12249,6 +12271,28 @@
       ]
     },
     "flux-2-klein-9b-base-lora": {
+      "imageInput": false,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "flux-2-max": {
+      "imageInput": false,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "flux-2-pro": {
       "imageInput": false,
       "imageOutput": true,
       "tool": false,
@@ -13645,6 +13689,17 @@
         "gemini"
       ]
     },
+    "gemini-decision-1": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
     "gemini-embedding-001": {
       "imageInput": false,
       "imageOutput": false,
@@ -13876,7 +13931,51 @@
         "gemini"
       ]
     },
+    "gemini_2.5_flash": {
+      "imageInput": false,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini_image3.1_flash_lite": {
+      "imageInput": false,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
     "gemini_omni_flash": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini_omni_flash_1.1": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini_omni_flash_1.2": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -19345,6 +19444,28 @@
         "openAICompatible"
       ]
     },
+    "grok_imagine_1_5": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "grok_imagine_1_5_lite": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "group-photo": {
       "imageInput": true,
       "imageOutput": true,
@@ -19423,6 +19544,17 @@
       ]
     },
     "h3-lite": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "h3_max": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -19544,6 +19676,17 @@
       ]
     },
     "happyhorse-1.1-t2v": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "happyhorse_1_0": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -21121,6 +21264,94 @@
       ]
     },
     "kling-v2.5-turbo-pro": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "kling2.5_turbo_pro": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "kling3.0_4k": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "kling3.0_pro": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "kling3.0_standard": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "klingO3_4k": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "klingO3_pro": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "klingO3_standard": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "kling_4_flash": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -24545,6 +24776,17 @@
         "openAICompatible"
       ]
     },
+    "mistral-large-4-latest": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "mistral-large-instruct-2407": {
       "imageInput": false,
       "imageOutput": false,
@@ -26023,6 +26265,17 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "muse_image": {
+      "imageInput": false,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
       "providers": [
         "openAICompatible"
       ]
@@ -27810,6 +28063,17 @@
       ]
     },
     "pareto-26.10": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "pareto-26.10-preview": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -32649,28 +32913,6 @@
         "openAICompatible"
       ]
     },
-    "seed-1.6": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "seed-1.6-flash": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "seed-2-0-code": {
       "imageInput": true,
       "imageOutput": false,
@@ -32716,17 +32958,6 @@
       ]
     },
     "seed-2-1-turbo": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "seed-2.0-code": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -32913,6 +33144,28 @@
         "openAICompatible"
       ]
     },
+    "seedream5_flash": {
+      "imageInput": false,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "seedream5_lite": {
+      "imageInput": false,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "semantic-ranker-default": {
       "imageInput": false,
       "imageOutput": false,
@@ -33084,6 +33337,17 @@
       "tool": false,
       "reasoning": false,
       "embedding": true,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "smart-resize": {
+      "imageInput": true,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
       "webSearch": false,
       "providers": [
         "openAICompatible"
@@ -33892,6 +34156,17 @@
         "openAICompatible"
       ]
     },
+    "start-end-to-video": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "step-3-5-flash": {
       "imageInput": false,
       "imageOutput": false,
@@ -34216,6 +34491,17 @@
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "system.ai.gemini-4-carbon": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -37133,6 +37419,17 @@
         "openAICompatible"
       ]
     },
+    "wan3": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "wan3.0-video": {
       "imageInput": false,
       "imageOutput": false,
@@ -37145,6 +37442,17 @@
       ]
     },
     "wan3.0-video-prime": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "wan3_prime": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
