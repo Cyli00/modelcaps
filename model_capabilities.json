@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-11-12",
-  "generated_at": "2026-11-12T05:55:01+00:00",
+  "version": "2026-11-13",
+  "generated_at": "2026-11-13T05:16:51+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -1225,6 +1225,17 @@
       ]
     },
     "Inkling": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Inkling-2-Small": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -4571,6 +4582,17 @@
         "openAICompatible"
       ]
     },
+    "apodex-1.1-mini:free": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "arrow-1.1": {
       "imageInput": false,
       "imageOutput": true,
@@ -4818,6 +4840,17 @@
       "imageOutput": true,
       "tool": true,
       "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "auto-caption": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -9781,13 +9814,14 @@
       "embedding": false,
       "webSearch": false,
       "providers": [
-        "openAICompatible"
+        "openAICompatible",
+        "openai"
       ]
     },
     "deepseek-v4.1-flash-1017:batch": {
       "imageInput": true,
       "imageOutput": false,
-      "tool": true,
+      "tool": false,
       "reasoning": true,
       "embedding": false,
       "webSearch": false,
@@ -11645,7 +11679,7 @@
     },
     "extract": {
       "imageInput": true,
-      "imageOutput": false,
+      "imageOutput": true,
       "tool": false,
       "reasoning": false,
       "embedding": false,
@@ -13679,6 +13713,28 @@
       ]
     },
     "gemini-4-carbon:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini-4-hydrogen": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini-4-hydrogen:batch": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -19444,6 +19500,17 @@
         "openAICompatible"
       ]
     },
+    "grok4.7": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "grok_imagine_1_5": {
       "imageInput": false,
       "imageOutput": false,
@@ -19895,6 +19962,28 @@
         "openAICompatible"
       ]
     },
+    "hunyuan-video": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "hunyuan-video-image-to-video": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "hunyuan_world": {
       "imageInput": true,
       "imageOutput": true,
@@ -20259,6 +20348,17 @@
       ]
     },
     "inkling": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "inkling-2-small": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -21208,6 +21308,17 @@
         "openAICompatible"
       ]
     },
+    "kimi-k3.1-pro:batch": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "kimi-k3:batch": {
       "imageInput": true,
       "imageOutput": false,
@@ -21341,6 +21452,17 @@
       ]
     },
     "klingO3_standard": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "kling_4": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -21616,6 +21738,28 @@
       ]
     },
     "ling-3.0-flash-fast": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "ling-3.0-flash-fin": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "ling-3.0-flash-sante": {
       "imageInput": false,
       "imageOutput": false,
       "tool": true,
@@ -21937,7 +22081,7 @@
     "llama-3.1-70b-instruct": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": false,
+      "tool": true,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -23221,6 +23365,28 @@
         "openAICompatible"
       ]
     },
+    "ltx-video": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "ltx-video-13b-distilled": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "ltxv-13b-098-distilled": {
       "imageInput": false,
       "imageOutput": false,
@@ -23331,6 +23497,17 @@
       "webSearch": false,
       "providers": [
         "gemini"
+      ]
+    },
+    "lyrics-video": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
       ]
     },
     "macaron-v1-tall": {
@@ -23466,6 +23643,17 @@
       ]
     },
     "mask": {
+      "imageInput": true,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "material": {
       "imageInput": true,
       "imageOutput": true,
       "tool": false,
@@ -25939,6 +26127,17 @@
         "openAICompatible"
       ]
     },
+    "motion-transfer": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "move": {
       "imageInput": false,
       "imageOutput": false,
@@ -26344,6 +26543,18 @@
       "webSearch": false,
       "providers": [
         "openAICompatible"
+      ]
+    },
+    "nano-banana-latest": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible",
+        "gemini"
       ]
     },
     "nano-banana-pro": {
@@ -27930,6 +28141,17 @@
         "openAICompatible"
       ]
     },
+    "ovi": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "p-image": {
       "imageInput": false,
       "imageOutput": true,
@@ -28151,6 +28373,17 @@
       ]
     },
     "particle-1": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "particle-1:free": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -33023,6 +33256,17 @@
         "openAICompatible"
       ]
     },
+    "seedance-latest": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "seedance2": {
       "imageInput": false,
       "imageOutput": false,
@@ -34522,6 +34766,17 @@
     "telestyle-v2": {
       "imageInput": true,
       "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "template-to-video": {
+      "imageInput": false,
+      "imageOutput": false,
       "tool": false,
       "reasoning": false,
       "embedding": false,
@@ -36550,6 +36805,50 @@
         "openAICompatible"
       ]
     },
+    "video-01": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "video-01-director": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "video-01-live": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "video-01-subject-reference": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "video-agent": {
       "imageInput": false,
       "imageOutput": false,
@@ -37144,6 +37443,17 @@
         "openAICompatible"
       ]
     },
+    "vto": {
+      "imageInput": true,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "wan-2.1-i2v-480p": {
       "imageInput": false,
       "imageOutput": false,
@@ -37354,6 +37664,28 @@
       ]
     },
     "wan-3-prime": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "wan-i2v-lora": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "wan-t2v-lora": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
