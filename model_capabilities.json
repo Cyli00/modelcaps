@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-11-13",
-  "generated_at": "2026-11-13T05:16:51+00:00",
+  "version": "2026-11-14",
+  "generated_at": "2026-11-14T05:07:03+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -1224,6 +1224,17 @@
         "openAICompatible"
       ]
     },
+    "Hy4-preview": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "Inkling": {
       "imageInput": true,
       "imageOutput": false,
@@ -1954,10 +1965,10 @@
       ]
     },
     "MiMo-V2.6-Flash": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
-      "tool": false,
-      "reasoning": false,
+      "tool": true,
+      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -3716,7 +3727,7 @@
     "amazon.nova-2-5-sonic": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": false,
+      "tool": true,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -4576,17 +4587,6 @@
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "apodex-1.1-mini:free": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -8981,7 +8981,8 @@
       "embedding": false,
       "webSearch": true,
       "providers": [
-        "gemini"
+        "gemini",
+        "openAICompatible"
       ]
     },
     "deep-research-pro-preview-12-2025": {
@@ -10611,7 +10612,29 @@
       ]
     },
     "drex-latest": {
-      "imageInput": false,
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "drex-max": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "drex-max-v1.1": {
+      "imageInput": true,
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
@@ -10622,7 +10645,7 @@
       ]
     },
     "drex-v1.0": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
@@ -10633,7 +10656,7 @@
       ]
     },
     "drex-v1.5": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": false,
       "tool": false,
       "reasoning": false,
@@ -13594,10 +13617,10 @@
     "gemini-3.8-flash-cyber": {
       "imageInput": true,
       "imageOutput": false,
-      "tool": false,
+      "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "gemini"
       ]
@@ -14499,7 +14522,7 @@
     "glimpse-1.0": {
       "imageInput": true,
       "imageOutput": false,
-      "tool": false,
+      "tool": true,
       "reasoning": true,
       "embedding": false,
       "webSearch": false,
@@ -21627,28 +21650,6 @@
         "gemini"
       ]
     },
-    "lfm-2.5-2.6b": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "lfm-2.5-2.6b:free": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "lfm-2.5-24b-a2b": {
       "imageInput": false,
       "imageOutput": false,
@@ -21748,28 +21749,6 @@
         "openAICompatible"
       ]
     },
-    "ling-3.0-flash-fin": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "ling-3.0-flash-sante": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "ling-3.0-flash-vl": {
       "imageInput": true,
       "imageOutput": false,
@@ -21794,6 +21773,17 @@
     },
     "ling-3.1-flash": {
       "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "ling-3.2-flash:free": {
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -24118,7 +24108,7 @@
     "midm-k-3.0-pro": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": false,
+      "tool": true,
       "reasoning": true,
       "embedding": false,
       "webSearch": false,
@@ -34565,6 +34555,17 @@
         "openAICompatible"
       ]
     },
+    "stt-async-v6": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "stt-rt-preview": {
       "imageInput": false,
       "imageOutput": false,
@@ -34621,6 +34622,17 @@
       ]
     },
     "stt-rt-v5": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "stt-rt-v6": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
