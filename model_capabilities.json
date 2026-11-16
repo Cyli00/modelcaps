@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-11-15",
-  "generated_at": "2026-11-15T04:59:03+00:00",
+  "version": "2026-11-16",
+  "generated_at": "2026-11-16T04:57:45+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -19952,17 +19952,6 @@
         "openAICompatible"
       ]
     },
-    "hunyuan-a13b-instruct": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": false,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "hunyuan-image-2.1": {
       "imageInput": false,
       "imageOutput": true,
@@ -31380,7 +31369,7 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
-      "reasoning": true,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -31784,6 +31773,17 @@
       ]
     },
     "qwen3p8-max": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "qwen4-max": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -34441,17 +34441,6 @@
       "reasoning": true,
       "embedding": false,
       "webSearch": true,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
-    "step-3.5-flash": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
       "providers": [
         "openAICompatible"
       ]
