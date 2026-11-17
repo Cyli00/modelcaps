@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-11-16",
-  "generated_at": "2026-11-16T04:57:45+00:00",
+  "version": "2026-11-17",
+  "generated_at": "2026-11-17T06:45:51+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -14926,6 +14926,17 @@
         "openAICompatible"
       ]
     },
+    "glm-5.2:batch": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "glm-5.3": {
       "imageInput": false,
       "imageOutput": false,
@@ -15487,6 +15498,17 @@
         "openAICompatible"
       ]
     },
+    "global.openai.gpt-5.6-cyber": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "global.openai.gpt-5.6-luna": {
       "imageInput": true,
       "imageOutput": false,
@@ -15565,6 +15587,17 @@
       ]
     },
     "global.openai.gpt-6.1-terra": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "global.openai.gpt-daybreak-blue-5.6-sol": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -20063,6 +20096,17 @@
       ]
     },
     "hy4": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "hy4-flash": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -27658,6 +27702,17 @@
         "openai"
       ]
     },
+    "omni-moderation-csam-latest": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "omni-moderation-latest": {
       "imageInput": false,
       "imageOutput": false,
@@ -31789,7 +31844,7 @@
       "tool": true,
       "reasoning": true,
       "embedding": false,
-      "webSearch": false,
+      "webSearch": true,
       "providers": [
         "openAICompatible"
       ]
@@ -32745,6 +32800,17 @@
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "rmbg-3": {
+      "imageInput": true,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
       "embedding": false,
       "webSearch": false,
       "providers": [
@@ -35185,6 +35251,17 @@
         "openAICompatible"
       ]
     },
+    "transition": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "trellis": {
       "imageInput": false,
       "imageOutput": true,
@@ -36153,6 +36230,17 @@
         "openAICompatible"
       ]
     },
+    "us.openai.gpt-5.6-cyber": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "us.openai.gpt-5.6-luna": {
       "imageInput": true,
       "imageOutput": false,
@@ -36231,6 +36319,17 @@
       ]
     },
     "us.openai.gpt-6.1-terra": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "us.openai.gpt-daybreak-blue-5.6-sol": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
