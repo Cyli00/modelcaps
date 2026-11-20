@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-11-19",
-  "generated_at": "2026-11-19T06:05:11+00:00",
+  "version": "2026-11-20",
+  "generated_at": "2026-11-20T05:52:59+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -1271,6 +1271,17 @@
     },
     "Hy3": {
       "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "Hy4": {
+      "imageInput": true,
       "imageOutput": false,
       "tool": true,
       "reasoning": true,
@@ -8655,6 +8666,17 @@
         "openAICompatible"
       ]
     },
+    "databricks-gemini-nano-banana-2-1": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "databricks-gemma-3-12b": {
       "imageInput": false,
       "imageOutput": false,
@@ -10228,6 +10250,17 @@
       ]
     },
     "deepseek-v4p1-flash-1017": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "deepseek-v4p1-flash-1017-flex": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -14960,6 +14993,17 @@
         "openAICompatible"
       ]
     },
+    "genie-4": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "gemini"
+      ]
+    },
     "glimpse": {
       "imageInput": true,
       "imageOutput": false,
@@ -18458,6 +18502,17 @@
         "openai"
       ]
     },
+    "gpt-live-1.1": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openai"
+      ]
+    },
     "gpt-live-transcribe": {
       "imageInput": false,
       "imageOutput": false,
@@ -21108,17 +21163,6 @@
         "openAICompatible"
       ]
     },
-    "inkling-2-small:free": {
-      "imageInput": true,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "inkling-small": {
       "imageInput": true,
       "imageOutput": false,
@@ -22132,7 +22176,8 @@
       "embedding": false,
       "webSearch": false,
       "providers": [
-        "openAICompatible"
+        "openAICompatible",
+        "openai"
       ]
     },
     "kimi-k3.1-pro-highspeed": {
@@ -22149,7 +22194,7 @@
     "kimi-k3.1-pro:batch": {
       "imageInput": true,
       "imageOutput": false,
-      "tool": false,
+      "tool": true,
       "reasoning": true,
       "embedding": false,
       "webSearch": false,
@@ -28110,17 +28155,6 @@
         "openAICompatible"
       ]
     },
-    "north-mini-code:free": {
-      "imageInput": false,
-      "imageOutput": false,
-      "tool": true,
-      "reasoning": true,
-      "embedding": false,
-      "webSearch": false,
-      "providers": [
-        "openAICompatible"
-      ]
-    },
     "north-small-translate-1.0": {
       "imageInput": false,
       "imageOutput": false,
@@ -30017,6 +30051,17 @@
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "pixtral-large-2502": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": false,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -38366,6 +38411,17 @@
       ]
     },
     "v4.5": {
+      "imageInput": false,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "v4.6": {
       "imageInput": false,
       "imageOutput": true,
       "tool": false,
