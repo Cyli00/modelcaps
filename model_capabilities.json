@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/Cyli00/modelcaps@main/model_capabilities.schema.json",
-  "version": "2026-11-23",
-  "generated_at": "2026-11-23T05:57:05+00:00",
+  "version": "2026-11-24",
+  "generated_at": "2026-11-24T08:36:29+00:00",
   "sources": [
     "litellm",
     "openrouter"
@@ -554,6 +554,17 @@
       ]
     },
     "DeepSeek-V4.1-Flash-1017-Fast": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "DeepSeek-V4.1-Flash-1017-fast": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -2133,6 +2144,28 @@
     "MiniMax-H3": {
       "imageInput": false,
       "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "MiniMax-H3-Image": {
+      "imageInput": false,
+      "imageOutput": true,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "MiniMax-H3-Image-Highspeed": {
+      "imageInput": false,
+      "imageOutput": true,
       "tool": false,
       "reasoning": false,
       "embedding": false,
@@ -14386,6 +14419,17 @@
       ]
     },
     "gemini-4-neon": {
+      "imageInput": true,
+      "imageOutput": false,
+      "tool": true,
+      "reasoning": true,
+      "embedding": false,
+      "webSearch": true,
+      "providers": [
+        "gemini"
+      ]
+    },
+    "gemini-4-neon-cyber-permissive": {
       "imageInput": true,
       "imageOutput": false,
       "tool": true,
@@ -28169,7 +28213,7 @@
     "nemotron-3.5-super-120b-a12b": {
       "imageInput": false,
       "imageOutput": false,
-      "tool": false,
+      "tool": true,
       "reasoning": false,
       "embedding": false,
       "webSearch": false,
@@ -30014,7 +30058,40 @@
         "openAICompatible"
       ]
     },
+    "parse-high": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
     "parse-legacy": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "parse-low": {
+      "imageInput": false,
+      "imageOutput": false,
+      "tool": false,
+      "reasoning": false,
+      "embedding": false,
+      "webSearch": false,
+      "providers": [
+        "openAICompatible"
+      ]
+    },
+    "parse-medium": {
       "imageInput": false,
       "imageOutput": false,
       "tool": false,
@@ -30730,7 +30807,7 @@
       ]
     },
     "pro": {
-      "imageInput": false,
+      "imageInput": true,
       "imageOutput": true,
       "tool": false,
       "reasoning": false,
